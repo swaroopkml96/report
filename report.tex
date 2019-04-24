@@ -1,0 +1,83 @@
+\documentclass[11pt,twoside,a4paper]{report}
+\title{Detecting abnormalities on chest X-rays using deep neural networks}
+\author{Swaroop Kumar M L}
+\begin{document}
+\maketitle
+\begin{abstract}
+    Diseases like pneumonia and tuberculosis are leading causes of death world-wide,
+    Although conclusive diagnosis requires other tests such as a sputum culture,
+    chest radiography can be an important diagnostic aid and is routinely recommended
+    since it is fast, affordable and highly sensitive. Moreover, automated detection of
+    abnormalities on the chest X-ray can help in screening and severity-based prioritization.
+    There has been increasing interest in using deep learning for computer-aided diagnosis in both the
+    machine learning and radiology communities. There has also been recent work in model explainability and
+    unsupervised localization, and methods for dealing with label noise in a weakly supervised setting\\
+
+    Inspired by previous work, we develop algorithms that
+    can detect abnormalities on the X-ray and explain these detections using unsupervised localization.
+    We establish baselines, benchmark against previous work and evaluate the effects of recent techniques
+    such as mixup on performance and generalizability to other datasets.
+    In terms of AUROC, we acheive performance competitive with previous work in a) detecting pneumonia-like
+    and other abnormalities on the NIH chestX-ray14 dataset and b) in detecting tuberculosis on the Shenzhen
+    hospital dataset, and we achieve state-of-the-art performance on the Montgomery county tuberculosis dataset.
+    We also test our algorithms for bias with respect to gender, age and view position. 
+\end{abstract}
+\tableofcontents
+\chapter{Introduction}
+    \section{Problem definition}
+    \section{Motivation}
+    \section{Previous work}
+    \section{Our work}
+    \section{Report layout}
+\chapter{Literature survey}
+    \section{CheXNet and CheXNext}
+    \section{Explainability}
+    \section{Fairness}
+    \section{Label noise}
+    \section{Learning at multiple scales}
+    \section{Attention}
+    \section{Generalizability}
+    \section{Other methods}
+    \section{Tuberculosis}
+\chapter{Data}
+    \section{NIH CXR-14}
+        \subsection{Challenges and issues}
+    \section{Mendeley}
+    \section{Shenzhen and Montgomery}
+\chapter{Baselines}
+    \section{Model architecture}
+    \section{Training procedure}
+    \section{Unsupervised localization}
+        \subsection{LIME as an alternative}
+\chapter{Experiments}
+    \section{Data augmentation}
+    \section{Test-time augmentation}
+    \section{Higher resolution}
+    \section{Progressive resizing}
+    \section{Ensembling for scale-invariance}
+    \section{Location-sensitive ensembling}
+    \section{Mixup}
+    \section{Label drift}
+    Choose a better name
+    \section{Transfer learning for tuberculosis}
+    \section{Generalizability}
+\chapter{Results}
+    \section{Comparison metrics}
+    \section{Comparison to previous work}
+    \section{Comparison to human radiologists}
+        \subsection{Caveats with comparison to human radiologists}
+    \section{Other important factors}
+    Such as how well predicted probabilities correspond to actual severity, localization, and time
+    \section{Examples}
+\chapter{Bias}
+    \section{Gender}
+    \section{Age}
+    \section{View position}
+\chapter{Conclusion}
+\chapter{Future work}
+    \section{Limitations of proposed work}
+    \section{Avenues for further research}
+    \section{Practical implementation and clinical relevance}
+    Scalability
+    \section{More recent datasets}
+\end{document}

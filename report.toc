@@ -6,9 +6,9 @@
 \contentsline {section}{\numberline {1.5}Report layout}{4}
 \contentsline {chapter}{\numberline {2}Literature survey}{5}
 \contentsline {section}{\numberline {2.1}CheXNet and CheXNext}{5}
-\contentsline {section}{\numberline {2.2}Explainability}{5}
-\contentsline {section}{\numberline {2.3}Fairness}{5}
-\contentsline {section}{\numberline {2.4}Label noise}{5}
+\contentsline {section}{\numberline {2.2}Weakly supervised learning}{5}
+\contentsline {section}{\numberline {2.3}Explainability}{5}
+\contentsline {section}{\numberline {2.4}Fairness}{5}
 \contentsline {section}{\numberline {2.5}Learning at multiple scales}{5}
 \contentsline {section}{\numberline {2.6}Attention}{5}
 \contentsline {section}{\numberline {2.7}Generalizability}{5}

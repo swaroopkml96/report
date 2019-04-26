@@ -4,23 +4,27 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-    Diseases like pneumonia and tuberculosis are leading causes of death world-wide,
+    Diseases like pneumonia and tuberculosis are leading causes of death world-wide.
     Although conclusive diagnosis requires other tests such as a sputum culture,
     chest radiography can be an important diagnostic aid and is routinely recommended
     since it is fast, affordable and highly sensitive. Moreover, automated detection of
     abnormalities on the chest X-ray can help in screening and severity-based prioritization.
     There has been increasing interest in using deep learning for computer-aided diagnosis in both the
-    machine learning and radiology communities. There has also been recent work in model explainability and
-    weakly supervised localization, and methods for dealing with label noise in a weakly supervised setting\\
+    machine learning and radiology communities. 
+    The community has also come to recognize that human experts
+    sometimes disagree, which may lead to label noise, and that models should be required not only
+    to make inferences but to also \emph{explain} these inferences such that human experts can
+    decide whether an inference can be trusted. There has been recent work on model explainability
+    and methods to deal with label noise.\\
 
-    Inspired by previous work, we develop algorithms that
-    can detect abnormalities on the X-ray and explain these detections using weakly supervised localization.
+    Inspired by previous work, we develop algorithms that can detect abnormalities on the X-ray
+    and explain these detections using weakly supervised localization.
     We establish baselines, benchmark against previous work and evaluate the effects of recent techniques
     such as mixup on performance and generalizability to other datasets.
     In terms of AUROC, we acheive performance competitive with previous work in a) detecting pneumonia-like
     and other abnormalities on the NIH chestX-ray14 dataset and b) in detecting tuberculosis on the Shenzhen
     hospital dataset, and we achieve state-of-the-art performance on the Montgomery county tuberculosis dataset.
-    We also test our algorithms for bias with respect to gender, age and view position. 
+    We also test our algorithms for bias with respect to gender, age and view position.
 \end{abstract}
 \tableofcontents
 \chapter{Introduction}
@@ -43,7 +47,7 @@
     \section{NIH CXR-14}
         \subsection{Challenges and issues}
     \section{Mendeley}
-    \section{Shenzhen and Montgomery}
+    \section{Szhenzhen and Montgomery}
 \chapter{Baselines}
     \section{Model architecture}
     \section{Training procedure}

@@ -18,7 +18,7 @@
 \contentsline {section}{\numberline {3.1}NIH CXR-14}{6}
 \contentsline {subsection}{\numberline {3.1.1}Challenges and issues}{6}
 \contentsline {section}{\numberline {3.2}Mendeley}{6}
-\contentsline {section}{\numberline {3.3}Shenzhen and Montgomery}{6}
+\contentsline {section}{\numberline {3.3}Szhenzhen and Montgomery}{6}
 \contentsline {chapter}{\numberline {4}Baselines}{7}
 \contentsline {section}{\numberline {4.1}Model architecture}{7}
 \contentsline {section}{\numberline {4.2}Training procedure}{7}

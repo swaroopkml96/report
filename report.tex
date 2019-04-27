@@ -9,63 +9,103 @@
     chest radiography can be an important diagnostic aid and is routinely recommended
     since it is fast, affordable and highly sensitive. Moreover, automated detection of
     abnormalities on the chest X-ray can help in screening and severity-based prioritization.
-    There has been increasing interest in using deep learning for computer-aided diagnosis in both the
-    machine learning and radiology communities. 
-    The community has also come to recognize that human experts
-    sometimes disagree, which may lead to label noise, and that models should be required not only
-    to make inferences but to also \emph{explain} these inferences such that human experts can
-    decide whether an inference can be trusted. There has been recent work on model explainability
-    and methods to deal with label noise.\\
+    Due to the nature of the domain, it is also important that models not only make inferences
+    but also generate explanations sufficient to convice a human expert.\\
 
     Inspired by previous work, we develop algorithms that can detect abnormalities on the X-ray
-    and explain these detections using weakly supervised localization.
-    We establish baselines, benchmark against previous work and evaluate the effects of recent techniques
-    such as mixup on performance and generalizability to other datasets.
+    and explain these detections using weakly supervised localization. We establish baselines, 
+    benchmark against previous work and show that recent techniques such as mixup and progressive 
+    resizing can help to improve performance and generalization to other datasets.
     In terms of AUROC, we acheive performance competitive with previous work in a) detecting pneumonia-like
-    and other abnormalities on the NIH chestX-ray14 dataset and b) in detecting tuberculosis on the Shenzhen
-    hospital dataset, and we achieve state-of-the-art performance on the Montgomery county tuberculosis dataset.
-    We also test our algorithms for bias with respect to gender, age and view position.
+    and other abnormalities on the NIH chestX-ray14 dataset and b) detecting tuberculosis on the Shenzhen
+    hospital dataset, and achieve state-of-the-art performance on the Montgomery county tuberculosis dataset.
+    We also look for potential sources of bias and test our baselines with respect to gender, age and 
+    view position.
 \end{abstract}
 \tableofcontents
 \chapter{Introduction}
     \section{Problem definition}
+    Here I describe the problem and define it formally, including the need for model explainability.
     \section{Motivation}
+    Here I talk about the social/economic aspects of these diseases, compare different diagnosis methods
+    and how and why chest radiography, and our work in particular can help. Also, how this can be part
+    of a bigger practical implementation integrated into existing radiologist workflow. More detail on
+    the latter in section \ref{practical}.
     \section{Previous work}
+    A breif overview of previous work. A more detailed description will be in
+    chapter \ref{litsurvey}, \emph{Literature survey}.
     \section{Our work}
+    Short overview of our experiments and results. A condensed version of chapters \ref{exp}, \ref{res} and
+    \ref{bias}
     \section{Report layout}
-\chapter{Literature survey}
+    Overall layout of the rest of the report.
+\chapter{Literature survey\label{litsurvey}}
     \section{CheXNet and CheXNext}
+    CheXNet and later, CheXNext from the Stanford ML group, are the most well-known works in this area.
+    Our work is heavily derived from theirs.
     \section{Weakly supervised learning}
-    \section{Explainability}
+    I breifly describe the body of work around weakly supervised learning, and for our purposes, two forms of it:
+    \begin{enumerate}
+        \item{Learning with inaccurate labels. For example, learning from labels which were generated algorithmically
+        and which may therefore be inaccurate. Here, labels were extracted from radiology reports in natural language text.}
+        \item{Learning from imprecise labels. For example, learning to precisely localize objects or patterns
+        with imprecise image-level labels. We use this to generate explanations.}
+    \end{enumerate}
+        \section{Explainability}
+    A short review of methods such as weakly supervised localization, LIME and SHAP which have been developed for 
+    generating explanations.
     \section{Fairness}
+    Especially in deep learning, since a model is a black-box and can learn biases inherent in large datasets
+    such as race and gender, a number of methods have been proposed to quantify and/or prevent this.
     \section{Learning at multiple scales}
+    Several papers use multiple scales to improve performance.
     \section{Attention}
+    The state-of-the-art for the NIH chestX-ray14 dataset uses a form of attention by training a seperate
+    local branch on small patches of an image. I describe this and other methods that use attention.
+    \section{Recurrent neural networls}
+    A number of papers have shown that using recurrent neural networks to effectively make use of correlations
+    between different abnormalities improves performance.
     \section{Generalizability}
+    Atleast one other paper has studied how models in this domain generalize to other datasets. I describe
+    their results.
     \section{Other methods}
+    Other methods such as capsule networks and squeeze-and-excitation blocks have been used. 
     \section{Tuberculosis}
+    Here, I describe the previous work on tuberculosis detection, where the emphasis is on traditional
+    techniques due to the small size of the dataset.
 \chapter{Data}
+Here I describe all the datasets we use, as well as how we split them, and where and how we use k-fold
+cross validation
     \section{NIH CXR-14}
+    The NIH chestX-ray 14 dataset, our primary dataset annotated with 14 different abnormalities including
+    pneumonia.
         \subsection{Challenges and issues}
+        Challenges with this dataset, and issues arising due to the fact that labels were
+        extracted algorithmically from radiology reports in natural language.
     \section{Mendeley}
+    This is the Mendelay pneumonia dataset of CXRs of children under 5 years, which we use to test
+    generalization.
     \section{Szhenzhen and Montgomery}
-\chapter{Baselines}
+    Szhenzhen and Montgomery county tuberculosis datasets. Shenzhen is used to train models and
+    Montgomery is used to test generalization.
+\chapter{Baselines}r
     \section{Model architecture}
     \section{Training procedure}
-    \section{Unsupervised localization}
+    \section{Weakly supervised localization}
+        \subsection{Saliency map to bounding box}
         \subsection{LIME as an alternative}
-\chapter{Experiments}
+\chapter{Experiments\label{exp}}
     \section{Data augmentation}
     \section{Test-time augmentation}
     \section{Higher resolution}
     \section{Progressive resizing}
     \section{Ensembling for scale-invariance}
-    \section{Location-sensitive ensembling}
+    \section{Ensembling saliency maps}
     \section{Mixup}
-    \section{Label drift}
-    Choose a better name
+    \section{Self-training}
     \section{Transfer learning for tuberculosis}
     \section{Generalizability}
-\chapter{Results}
+\chapter{Results\label{res}}
     \section{Comparison metrics}
     \section{Comparison to previous work}
     \section{Comparison to human radiologists}
@@ -73,7 +113,7 @@
     \section{Other important factors}
     Such as how well predicted probabilities correspond to actual severity, localization, and time
     \section{Examples}
-\chapter{Bias}
+\chapter{Bias\label{bias}}
     \section{Gender}
     \section{Age}
     \section{View position}
@@ -81,7 +121,7 @@
 \chapter{Future work}
     \section{Limitations of proposed work}
     \section{Avenues for further research}
-    \section{Practical implementation and clinical relevance}
-    Scalability
+    \section{Practical implementation and clinical relevance\label{practical}}
     \section{More recent datasets}
+    Such as CheXPert and PadChest
 \end{document}

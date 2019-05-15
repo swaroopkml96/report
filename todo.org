@@ -1,0 +1,2 @@
+* TODO Add and refer example figure in problem definition
+* TODO Include reference to NIH CXR-14 dataset

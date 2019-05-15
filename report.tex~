@@ -72,9 +72,9 @@ detect these abnormalities can help by:
   \includegraphics[width=0.3\textwidth]{images/normal2}\hspace{0.01\textwidth}%
   \includegraphics[width=0.3\textwidth]{images/consolidation_heatmap}\hspace{0.01\textwidth}%
   \includegraphics[width=0.3\textwidth]{images/TB_heatmap}
-  \caption{From left to right: The first column shows two \emph{Normal} images. Columns 2 and 3 show
+  \caption{The first column shows two \emph{Normal} images. Columns 2 and 3 show
     images with \emph{Pneumonia} and \emph{Tuberculosis} respectively, the first
-    row showing the original images and the second showing the same overlaid with
+    row showing the original image and the second showing the same overlaid with
     heatmaps localizing the abnormalities, which we call \emph{explanations}}
   % \end{minipage}
   % }
@@ -99,8 +99,8 @@ classification problem. Given the $n$-dimensional feature space $X = \mathbb{R}
 vector $\{\, x_{i1}, x_{i2}, x_{i3} \dots x_{in} \,\}$, each feature
 representing the intensity value of a single pixel of the input image, and $Y_i
 \subseteq L $ is the set of abnormalities associated with $x_i$. For an unseen
-instance $x$, the classifier $f(\cdot)$ predicts $f(x) \subseteq L$ as the set
-of abnormalities for
+instance $x$, the classifier $f(\cdot)$ predicts $f(x) \subseteq L$ as the set of
+abnormalities for
 $x$.\\
 
 For the Shenzhen hospital tuberculosis dataset (see section \ref{szhenzhen}), we
@@ -117,33 +117,31 @@ $f(\cdot)$ predicts $y \in \{\,0, 1\,\}$ as being the label for $x$.\\
 In both cases, $f(\cdot)$ is a deep convolutional neural
 network\cite{lecun1998gradient}, specifically a variant of
 densenet\cite{iandola2014densenet} trained using the Adam\cite{kingma2014adam}
-optimization algorithm (see sections \ref{architecture} and
-\ref{training_procedure} for discussions about the model architecture and
-training procedure). In the case of NIH ChestX-ray14, our primary dataset, the
-output of the network is a 14-dimensional vector $P = \{\,p_1, p_2, p_3 \dots
-p_{14}\,\}$ where $p_k \in P$ corresponds to the $k^{th}$ abnormality and $0
-\leq p_k \leq 1$. A set of optimal thresholds $T = \{\,t_1, t_2, t_3 \dots
-t_{14}\,\}$ is determined from the training set by maximizing the F1-score and
-applied to the output of the network so that the final output $Y \subseteq L$
-is:
+optimization algorithm (see sections \ref{architecture} and \ref{training_procedure} for 
+discussions about the model architecture and training procedure). 
+In the case of NIH ChestX-ray14, our primary dataset, the output
+of the network is a 14-dimensional vector $P = \{\,p_1, p_2, p_3 \dots p_{14}\,\}$ where
+$p_k \in P$ corresponds to the $k^{th}$ abnormality and $0 \leq p_k \leq 1$. A set of optimal
+thresholds $T = \{\,t_1, t_2, t_3 \dots t_{14}\,\}$ is determined from the training set by
+maximizing the F1-score and applied to the output of the network so that the final output $Y \subseteq L$ is:
 \begin{equation}
-  Y = \{\,l_i \in L \mid p_i \in P \wedge t_i \in T \wedge p_i > t_i \,\}
+Y = \{\,l_i \in L \mid p_i \in P \wedge t_i \in T \wedge p_i > t_i \,\}
 \end{equation}
-In the case of the Shenzhen hospital tuberculosis dataset, the output of the
-network is a 2-dimensional vector $P = \{\,p_1, p_2\,\}$ where $0 \leq p_1 \leq
-1$ and $0 \leq p_2 \leq 1$ and the final output $y$ is:
+In the case of the Shenzhen hospital tuberculosis dataset, the output of the network
+is a 2-dimensional vector $P = \{\,p_1, p_2\,\}$ where $0 \leq p_1 \leq 1$ and $0 \leq p_2 \leq 1$
+and the final output $y$ is:
 \begin{equation}
-  y = 
-  \begin{cases}
-    0 & \text{if $p1 \geq p2$\, (Normal)}\\
-    1 & \text{if $p2 > p1$\, (Tuberculosis)}
-  \end{cases}
+y = 
+\begin{cases}
+0 & \text{if $p1 \geq p2$\, (Normal)}\\
+1 & \text{if $p2 > p1$\, (Tuberculosis)}
+\end{cases}
 \end{equation}
 
 \subsection{Explainability}
-Deep neural networks have outperformed previous methods in several domains.
-However, they remain black-boxes with millions of parameters, limiting their use
-in routine clinical practice. Several methods have been proposed to
+Deep neural networks have outperformed previous methods in several domains. However, 
+they remain black-boxes with millions of parameters, limiting their use
+in routine clinical practice. Several methods have been proposed to 
 
 \subsection{Generalizability}
 

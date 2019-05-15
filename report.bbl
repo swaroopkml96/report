@@ -1,0 +1,196 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Wang2017a}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=c524ce366a5f141c1da3c2505692aaf4}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaosong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=58f0be4b00c7f88fce41e14a40c7e7db}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Yifan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c88c438fdf38473dd68166ad17a42018}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Le},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3175f2725bdceeab4ed47c122439add7}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Zhiyong},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=30eb4e46395ffb8a34c99da83d675d2c}{%
+           family={Bagheri},
+           familyi={B\bibinitperiod},
+           given={Mohammadhadi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3cb874838345a043921eea69ab2809ee}{%
+           family={Summers},
+           familyi={S\bibinitperiod},
+           given={Ronald\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{14c4d8deb5aa46b032ffdac50af05728}
+      \strng{fullhash}{e3feaa4f171f1d76468afe0292b78ba1}
+      \strng{bibnamehash}{e3feaa4f171f1d76468afe0292b78ba1}
+      \strng{authorbibnamehash}{e3feaa4f171f1d76468afe0292b78ba1}
+      \strng{authornamehash}{14c4d8deb5aa46b032ffdac50af05728}
+      \strng{authorfullhash}{e3feaa4f171f1d76468afe0292b78ba1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{ChestX-ray8: Hospital-Scale Chest X-Ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases}}
+      \field{year}{2017}
+      \field{pages}{2097\bibrangedash 2106}
+      \range{pages}{10}
+      \verb{file}
+      \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Wang et al. - 2017 - ChestX-ray8 Hospital-Scale Chest X-Ray Database and Benchmarks on Weakly-Supervised Classification and Localization.pdf:pdf
+      \endverb
+    \endentry
+    \entry{lecun1998gradient}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{4}{}{%
+        {{hash=6a1aa6b7eab12b931ca7c7e3f927231d}{%
+           family={LeCun},
+           familyi={L\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ac762f2592005edf6bad58f566967c6c}{%
+           family={Bottou},
+           familyi={B\bibinitperiod},
+           given={L{é}on},
+           giveni={L\bibinitperiod}}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=844e183692f08a63f99285330fcf90cc}{%
+           family={Haffner},
+           familyi={H\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taipei, Taiwan}%
+      }
+      \strng{namehash}{b3a9cc564356785439ff929fcc780b86}
+      \strng{fullhash}{77979fc90ec1a7232a5325c8fc64cfce}
+      \strng{bibnamehash}{77979fc90ec1a7232a5325c8fc64cfce}
+      \strng{authorbibnamehash}{77979fc90ec1a7232a5325c8fc64cfce}
+      \strng{authornamehash}{b3a9cc564356785439ff929fcc780b86}
+      \strng{authorfullhash}{77979fc90ec1a7232a5325c8fc64cfce}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{number}{11}
+      \field{title}{Gradient-based learning applied to document recognition}
+      \field{volume}{86}
+      \field{year}{1998}
+      \field{pages}{2278\bibrangedash 2324}
+      \range{pages}{47}
+    \endentry
+    \entry{iandola2014densenet}{article}{}
+      \name{author}{6}{}{%
+        {{hash=be47ee0aea5a39faef0c92c8f89ddcbe}{%
+           family={Iandola},
+           familyi={I\bibinitperiod},
+           given={Forrest},
+           giveni={F\bibinitperiod}}}%
+        {{hash=02f45337c560e868b759a2808da0a5d0}{%
+           family={Moskewicz},
+           familyi={M\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1ebce94a92f410fe090dc3da9c8b632e}{%
+           family={Karayev},
+           familyi={K\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=90180e1a30742e0d15328bfe637c2ef4}{%
+           family={Darrell},
+           familyi={D\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+        {{hash=994177386e5a63171a7be588e97df7e5}{%
+           family={Keutzer},
+           familyi={K\bibinitperiod},
+           given={Kurt},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{11946c44b3152daadf3c14b3ff624d00}
+      \strng{fullhash}{0181841339a9deced55f5de1473c7319}
+      \strng{bibnamehash}{0181841339a9deced55f5de1473c7319}
+      \strng{authorbibnamehash}{0181841339a9deced55f5de1473c7319}
+      \strng{authornamehash}{11946c44b3152daadf3c14b3ff624d00}
+      \strng{authorfullhash}{0181841339a9deced55f5de1473c7319}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1404.1869}
+      \field{title}{Densenet: Implementing efficient convnet descriptor pyramids}
+      \field{year}{2014}
+    \endentry
+    \entry{kingma2014adam}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b6fbd171848aad4edf3925543f1f1522}{%
+           family={Kingma},
+           familyi={K\bibinitperiod},
+           given={Diederik\bibnamedelima P},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=8aa66e8231cc2fdbe67aa4f18ca970c6}{%
+           family={Ba},
+           familyi={B\bibinitperiod},
+           given={Jimmy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{fullhash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{bibnamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authorbibnamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authornamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authorfullhash}{a09df9f123146b8e2c7f1134c9496932}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1412.6980}
+      \field{title}{Adam: A method for stochastic optimization}
+      \field{year}{2014}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

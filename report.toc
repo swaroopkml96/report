@@ -4,120 +4,120 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Problem definition}{4}{section.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Classification}{4}{subsection.1.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}Classification}{6}{subsection.1.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Explainability}{6}{subsection.1.1.2}% 
+\contentsline {subsection}{\numberline {1.1.2}Explainability}{7}{subsection.1.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Generalizability}{7}{subsection.1.1.3}% 
+\contentsline {subsection}{\numberline {1.1.3}Generalizability}{8}{subsection.1.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.4}Fairness}{7}{subsection.1.1.4}% 
+\contentsline {subsection}{\numberline {1.1.4}Fairness}{8}{subsection.1.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Motivation}{7}{section.1.2}% 
+\contentsline {section}{\numberline {1.2}Motivation}{9}{section.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Previous work}{7}{section.1.3}% 
+\contentsline {section}{\numberline {1.3}Previous work}{10}{section.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Our work}{7}{section.1.4}% 
+\contentsline {section}{\numberline {1.4}Our work}{10}{section.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Report layout}{7}{section.1.5}% 
+\contentsline {section}{\numberline {1.5}Report layout}{10}{section.1.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Literature survey}{8}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}Literature survey}{11}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}CheXNet and CheXNext}{8}{section.2.1}% 
+\contentsline {section}{\numberline {2.1}CheXNet and CheXNext}{11}{section.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Weakly supervised learning}{8}{section.2.2}% 
+\contentsline {section}{\numberline {2.2}Weakly supervised learning}{11}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Explainability}{8}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}Explainability}{11}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Fairness}{8}{section.2.4}% 
+\contentsline {section}{\numberline {2.4}Fairness}{11}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Learning at multiple scales}{9}{section.2.5}% 
+\contentsline {section}{\numberline {2.5}Learning at multiple scales}{12}{section.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Attention}{9}{section.2.6}% 
+\contentsline {section}{\numberline {2.6}Attention}{12}{section.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Recurrent neural networls}{9}{section.2.7}% 
+\contentsline {section}{\numberline {2.7}Recurrent neural networls}{12}{section.2.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.8}Generalizability}{9}{section.2.8}% 
+\contentsline {section}{\numberline {2.8}Generalizability}{12}{section.2.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.9}Other methods}{9}{section.2.9}% 
+\contentsline {section}{\numberline {2.9}Other methods}{12}{section.2.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.10}Tuberculosis}{9}{section.2.10}% 
+\contentsline {section}{\numberline {2.10}Tuberculosis}{12}{section.2.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Data}{10}{chapter.3}% 
+\contentsline {chapter}{\numberline {3}Data}{13}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}NIH CXR-14}{10}{section.3.1}% 
+\contentsline {section}{\numberline {3.1}NIH CXR-14}{13}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Challenges and issues}{10}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Challenges and issues}{13}{subsection.3.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Mendeley}{10}{section.3.2}% 
+\contentsline {section}{\numberline {3.2}Mendeley}{13}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Szhenzhen}{10}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Szhenzhen}{13}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Montgomery}{10}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Montgomery}{13}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Baselines}{11}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}Baselines}{14}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Model architecture}{11}{section.4.1}% 
+\contentsline {section}{\numberline {4.1}Model architecture}{14}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Training procedure}{11}{section.4.2}% 
+\contentsline {section}{\numberline {4.2}Training procedure}{14}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Weakly supervised localization}{11}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Weakly supervised localization}{14}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Saliency map to bounding box}{11}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.1}Saliency map to bounding box}{14}{subsection.4.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}LIME as an alternative}{11}{subsection.4.3.2}% 
+\contentsline {subsection}{\numberline {4.3.2}LIME as an alternative}{14}{subsection.4.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Experiments}{12}{chapter.5}% 
+\contentsline {chapter}{\numberline {5}Experiments}{15}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Data augmentation}{12}{section.5.1}% 
+\contentsline {section}{\numberline {5.1}Data augmentation}{15}{section.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Test-time augmentation}{12}{section.5.2}% 
+\contentsline {section}{\numberline {5.2}Test-time augmentation}{15}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Higher resolution}{12}{section.5.3}% 
+\contentsline {section}{\numberline {5.3}Higher resolution}{15}{section.5.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Progressive resizing}{12}{section.5.4}% 
+\contentsline {section}{\numberline {5.4}Progressive resizing}{15}{section.5.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Ensembling for scale-invariance}{12}{section.5.5}% 
+\contentsline {section}{\numberline {5.5}Ensembling for scale-invariance}{15}{section.5.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Ensembling saliency maps}{12}{section.5.6}% 
+\contentsline {section}{\numberline {5.6}Ensembling saliency maps}{15}{section.5.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.7}Mixup}{12}{section.5.7}% 
+\contentsline {section}{\numberline {5.7}Mixup}{15}{section.5.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.8}Self-training}{12}{section.5.8}% 
+\contentsline {section}{\numberline {5.8}Self-training}{15}{section.5.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.9}Transfer learning for tuberculosis}{12}{section.5.9}% 
+\contentsline {section}{\numberline {5.9}Transfer learning for tuberculosis}{15}{section.5.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.10}Generalizability}{12}{section.5.10}% 
+\contentsline {section}{\numberline {5.10}Generalizability}{15}{section.5.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Results}{13}{chapter.6}% 
+\contentsline {chapter}{\numberline {6}Results}{16}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Comparison metrics}{13}{section.6.1}% 
+\contentsline {section}{\numberline {6.1}Comparison metrics}{16}{section.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Comparison to previous work}{13}{section.6.2}% 
+\contentsline {section}{\numberline {6.2}Comparison to previous work}{16}{section.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Comparison to human radiologists}{13}{section.6.3}% 
+\contentsline {section}{\numberline {6.3}Comparison to human radiologists}{16}{section.6.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}Caveats with comparison to human radiologists}{13}{subsection.6.3.1}% 
+\contentsline {subsection}{\numberline {6.3.1}Caveats with comparison to human radiologists}{16}{subsection.6.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Other important factors}{13}{section.6.4}% 
+\contentsline {section}{\numberline {6.4}Other important factors}{16}{section.6.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Examples}{13}{section.6.5}% 
+\contentsline {section}{\numberline {6.5}Examples}{16}{section.6.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Bias}{14}{chapter.7}% 
+\contentsline {chapter}{\numberline {7}Bias}{17}{chapter.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Gender}{14}{section.7.1}% 
+\contentsline {section}{\numberline {7.1}Gender}{17}{section.7.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Age}{14}{section.7.2}% 
+\contentsline {section}{\numberline {7.2}Age}{17}{section.7.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}View position}{14}{section.7.3}% 
+\contentsline {section}{\numberline {7.3}View position}{17}{section.7.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Conclusion}{15}{chapter.8}% 
+\contentsline {chapter}{\numberline {8}Conclusion}{18}{chapter.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Future work}{16}{chapter.9}% 
+\contentsline {chapter}{\numberline {9}Future work}{19}{chapter.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Limitations of proposed work}{16}{section.9.1}% 
+\contentsline {section}{\numberline {9.1}Limitations of proposed work}{19}{section.9.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Avenues for further research}{16}{section.9.2}% 
+\contentsline {section}{\numberline {9.2}Avenues for further research}{19}{section.9.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Practical implementation and clinical relevance}{16}{section.9.3}% 
+\contentsline {section}{\numberline {9.3}Practical implementation and clinical relevance}{19}{section.9.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}More recent datasets}{16}{section.9.4}% 
+\contentsline {section}{\numberline {9.4}More recent datasets}{19}{section.9.4}% 

@@ -2000,6 +2000,27 @@
     <bcf:citekey order="2">lecun1998gradient</bcf:citekey>
     <bcf:citekey order="3">iandola2014densenet</bcf:citekey>
     <bcf:citekey order="4">kingma2014adam</bcf:citekey>
+    <bcf:citekey order="5">ribeiro2016should</bcf:citekey>
+    <bcf:citekey order="6">NIPS2017_7062</bcf:citekey>
+    <bcf:citekey order="7">bach2015pixel</bcf:citekey>
+    <bcf:citekey order="8">shrikumar2017learning</bcf:citekey>
+    <bcf:citekey order="9">zhou2016learning</bcf:citekey>
+    <bcf:citekey order="10">selvaraju2017grad</bcf:citekey>
+    <bcf:citekey order="11">recht2018cifar</bcf:citekey>
+    <bcf:citekey order="12">zech2018variable</bcf:citekey>
+    <bcf:citekey order="13">zech2018variable</bcf:citekey>
+    <bcf:citekey order="14">zech2018variable</bcf:citekey>
+    <bcf:citekey order="15">bolukbasi2016man</bcf:citekey>
+    <bcf:citekey order="16">buolamwini2018gender</bcf:citekey>
+    <bcf:citekey order="17">chouldechova2017fair</bcf:citekey>
+    <bcf:citekey order="17">dwork2012fairness</bcf:citekey>
+    <bcf:citekey order="17">hardt2016equality</bcf:citekey>
+    <bcf:citekey order="18">agarwal2018reductions</bcf:citekey>
+    <bcf:citekey order="18">hardt2016equality</bcf:citekey>
+    <bcf:citekey order="18">kusner2017counterfactual</bcf:citekey>
+    <bcf:citekey order="19">dastin_2018</bcf:citekey>
+    <bcf:citekey order="20">esteva2017dermatologist</bcf:citekey>
+    <bcf:citekey order="24">modi_suresh_2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

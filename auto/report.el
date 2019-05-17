@@ -19,11 +19,11 @@
     "amssymb"
     "biblatex"
     "graphicx"
-    "mathptmx"
     "hyperref"
     "hypcap")
    (LaTeX-add-labels
     "basic_examples"
+    "motivation"
     "litsurvey"
     "nih_cxr"
     "mendeley"

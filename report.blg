@@ -1,15 +1,18 @@
-[0] Config.pm:304> INFO - This is Biber 2.12
-[0] Config.pm:307> INFO - Logfile is 'report.blg'
-[27] biber:315> INFO - === Tue May 14, 2019, 17:57:24
-[41] Biber.pm:371> INFO - Reading 'report.bcf'
-[92] Biber.pm:889> INFO - Found 4 citekeys in bib section 0
-[101] Biber.pm:4093> INFO - Processing section 0
-[108] Biber.pm:4254> INFO - Looking for bibtex format file 'references.bib' for section 0
-[114] bibtex.pm:1523> INFO - LaTeX decoding ...
-[225] bibtex.pm:1340> INFO - Found BibTeX data source 'references.bib'
-[264] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[264] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[264] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[264] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[266] bbl.pm:636> INFO - Writing 'report.bbl' with encoding 'UTF-8'
-[268] bbl.pm:739> INFO - Output to report.bbl
+[1] Config.pm:304> INFO - This is Biber 2.12
+[2] Config.pm:307> INFO - Logfile is 'report.blg'
+[142] biber:315> INFO - === Fri May 17, 2019, 11:20:14
+[209] Biber.pm:371> INFO - Reading 'report.bcf'
+[475] Biber.pm:889> INFO - Found 22 citekeys in bib section 0
+[539] Biber.pm:4093> INFO - Processing section 0
+[571] Biber.pm:4254> INFO - Looking for bibtex format file 'references.bib' for section 0
+[605] bibtex.pm:1512> INFO - LaTeX decoding ...
+[1256] bibtex.pm:1329> INFO - Found BibTeX data source 'references.bib'
+[1873] Utils.pm:193> WARN - month field 'Oct' in entry 'dastin_2018' is not an integer - this will probably not sort properly.
+[1961] Utils.pm:193> WARN - month field 'Apr' in entry 'modi_suresh_2019' is not an integer - this will probably not sort properly.
+[2082] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2082] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2082] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2083] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[2164] bbl.pm:636> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[2202] bbl.pm:739> INFO - Output to report.bbl
+[2202] Biber.pm:110> INFO - WARNINGS: 2

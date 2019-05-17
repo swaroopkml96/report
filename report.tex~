@@ -5,7 +5,7 @@
 \addbibresource{references.bib}
 \usepackage{graphicx}
 %% Times new roman font
-\usepackage{mathptmx}
+%\usepackage{mathptmx}
 %% Arial font
 %\usepackage{helvet}
 %\renewcommand{\familydefault}{\sfdefault}
@@ -33,14 +33,16 @@
   Inspired by previous work, we develop algorithms that can detect abnormalities
   on the x-ray. The algorithm explains these detections by generating heatmaps
   pointing out areas of the image that most influenced it. We establish
-  baselines, benchmark against previous work and show that recent techniques
-  such as mixup and progressive resizing can help to improve performance and
-  generalization to other datasets. We acheive performance competitive with
-  previous work in a) detecting pneumonia-like and other abnormalities on the
-  NIH chestX-ray14 dataset and b) detecting tuberculosis on the Shenzhen
-  hospital dataset, and achieve state-of-the-art performance on the Montgomery
-  county tuberculosis dataset. We look for potential sources of bias and test
-  our baseline with respect to gender, age and view position.
+  baselines, benchmark against previous work and show that a) transfer-learning
+  from a large non-TB dataset dramatically improves TB detection and b) recent
+  techniques such as mixup and progressive resizing improve performance and
+  generalization to other datasets. We achieve performance competitive with
+  previous work in detecting pneumonia-like and other abnormalities on the NIH
+  chestX-ray14 dataset and in detecting tuberculosis on the Shenzhen hospital
+  dataset, and achieve state-of-the-art performance on the Montgomery county
+  tuberculosis dataset. We evaluate our algorithms on bacterial and viral
+  pneumonia separately, look for potential sources of bias and test our baseline
+  with respect to gender, age and view position.
 \end{abstract}
 \tableofcontents
 \chapter{Introduction}
@@ -59,7 +61,7 @@ detect these abnormalities can help by:
 \item{ Screening for patients with a particular disease in the general
     population }
 \item{ Prioritizing patients for subsequent review by a trained radiologist }
-\item{ Aiding a radiologist by being part of his/her workflow }
+\item{ Aiding a radiologist by being part of her workflow }
 \end{itemize}
 
 \begin{figure}
@@ -72,10 +74,11 @@ detect these abnormalities can help by:
   \includegraphics[width=0.3\textwidth]{images/normal2}\hspace{0.01\textwidth}%
   \includegraphics[width=0.3\textwidth]{images/consolidation_heatmap}\hspace{0.01\textwidth}%
   \includegraphics[width=0.3\textwidth]{images/TB_heatmap}
-  \caption{The first column shows two \emph{Normal} images. Columns 2 and 3 show
-    images with \emph{Pneumonia} and \emph{Tuberculosis} respectively, the first
-    row showing the original image and the second showing the same overlaid with
-    heatmaps localizing the abnormalities, which we call \emph{explanations}}
+  \caption{From left to right: The first column shows two \emph{Normal} images.
+    Columns 2 and 3 show images with \emph{Pneumonia} and \emph{Tuberculosis}
+    respectively, the first row showing the original images and the second
+    showing the same overlaid with heatmaps localizing the abnormalities, which
+    we call \emph{explanations}}
   % \end{minipage}
   % }
   \label{basic_examples}
@@ -92,58 +95,101 @@ For our primary dataset, a large collection of chest x-rays annotated with 14
 different abnormalities including pneumonia \cite{Wang2017a} (see section
 \ref{nih_cxr}), we formulate the problem as a multi-class multi-label
 classification problem. Given the $n$-dimensional feature space $X = \mathbb{R}
-^n$, and a set of $k$ class labels corresponding to $k$ abnormalities $L =
-\{\,l_1 ,l_2 ,l_3 \dots l_k\,\}$ the task is to learn a function $f:X
+^n$, and a set of $k$ class labels corresponding to $c$ abnormalities $L =
+\{\,l_1 ,l_2 ,l_3 \dots l_c\,\}$ the task is to learn a function $f:X
 \rightarrow 2^L$ from the training set $D = \{\,(x_i, Y_i) \mid 1 \leq i \leq m
-\,\}$. For each example $(x_i, Y_i)$, $x_i \in X$ is an $n$-dimensional feature
-vector $\{\, x_{i1}, x_{i2}, x_{i3} \dots x_{in} \,\}$, each feature
+\,\}$. For each example $(x_i, Y_i) \in D$, $x_i \in X$ is an $n$-dimensional
+feature vector $\{\, x_{i1}, x_{i2}, x_{i3} \dots x_{in} \,\}$, each feature
 representing the intensity value of a single pixel of the input image, and $Y_i
 \subseteq L $ is the set of abnormalities associated with $x_i$. For an unseen
-instance $x$, the classifier $f(\cdot)$ predicts $f(x) \subseteq L$ as the set of
-abnormalities for
+instance $x$, the classifier $f(\cdot)$ predicts $f(x) \subseteq L$ as the set
+of abnormalities for
 $x$.\\
 
 For the Shenzhen hospital tuberculosis dataset (see section \ref{szhenzhen}), we
 formulate the problem as a binary classification problem. Again, suppose $X$ is
 the $n$-dimensional feature space. The task is to learn a function $f:X
 \rightarrow \{\,0, 1 \,\}$ from the training set $D = \{\,(\,x_i, y_i) \mid 1
-\leq i \leq m\,\}$. For each $(x_i, y_i) \in D$, $x_i = \{\,x_{i1}, x_{i2},
-x_{i3} \dots x_{in}\,\}$ is an $n$-dimensional feature vector, each feature
-corresponding to the intensity value of a single pixel of the input image, and
-$y_i \in \{\,0, 1\,\}$ is the corresponding label, $0$ meaning \emph{Normal} and
-$1$ meaning \emph{Tuberculosis}. Given an unseen $x \in X$, the classifier
+\leq i \leq m\,\}$. For each $(x_i, y_i) \in D$, $x_i \in X$ is an
+$n$-dimensional feature vector $\{\,x_{i1}, x_{i2}, x_{i3} \dots x_{in}\,\}$,
+each feature corresponding to the intensity value of a single pixel of the input
+image, and $y_i \in \{\,0, 1\,\}$ is the corresponding label, $0$ meaning
+\emph{Normal} and $1$ meaning \emph{Tuberculosis}. Given an unseen $x \in X$,
+the classifier
 $f(\cdot)$ predicts $y \in \{\,0, 1\,\}$ as being the label for $x$.\\
 
 In both cases, $f(\cdot)$ is a deep convolutional neural
 network\cite{lecun1998gradient}, specifically a variant of
-densenet\cite{iandola2014densenet} trained using the Adam\cite{kingma2014adam}
-optimization algorithm (see sections \ref{architecture} and \ref{training_procedure} for 
-discussions about the model architecture and training procedure). 
-In the case of NIH ChestX-ray14, our primary dataset, the output
-of the network is a 14-dimensional vector $P = \{\,p_1, p_2, p_3 \dots p_{14}\,\}$ where
-$p_k \in P$ corresponds to the $k^{th}$ abnormality and $0 \leq p_k \leq 1$. A set of optimal
-thresholds $T = \{\,t_1, t_2, t_3 \dots t_{14}\,\}$ is determined from the training set by
-maximizing the F1-score and applied to the output of the network so that the final output $Y \subseteq L$ is:
+DenseNet\cite{iandola2014densenet} trained using the Adam\cite{kingma2014adam}
+optimization algorithm (see sections \ref{architecture} and
+\ref{training_procedure} for discussions about the model architecture and
+training procedure). In the case of NIH ChestX-ray14, our primary dataset, the
+output of the network is a 14-dimensional vector $P = \{\,p_1, p_2, p_3 \dots
+p_{14}\,\}$ where $p_k \in P$ corresponds to the $k^{th}$ abnormality and $0
+\leq p_k \leq 1$. A set of optimal thresholds $T = \{\,t_1, t_2, t_3 \dots
+t_{14}\,\}$ is determined from the training set by maximizing the F1-score and
+applied to the output of the network so that the final output $Y \subseteq L$
+is:
 \begin{equation}
-Y = \{\,l_i \in L \mid p_i \in P \wedge t_i \in T \wedge p_i > t_i \,\}
+  Y = \{\,l_i \in L \mid p_i \in P \wedge t_i \in T \wedge p_i > t_i \,\}
 \end{equation}
-In the case of the Shenzhen hospital tuberculosis dataset, the output of the network
-is a 2-dimensional vector $P = \{\,p_1, p_2\,\}$ where $0 \leq p_1 \leq 1$ and $0 \leq p_2 \leq 1$
-and the final output $y$ is:
+In the case of the Shenzhen hospital tuberculosis dataset, the output of the
+network is a 2-dimensional vector $P = \{\,p_1, p_2\,\}$ where $0 \leq p_1 \leq
+1$ and $0 \leq p_2 \leq 1$ and the final output $y$ is:
 \begin{equation}
-y = 
-\begin{cases}
-0 & \text{if $p1 \geq p2$\, (Normal)}\\
-1 & \text{if $p2 > p1$\, (Tuberculosis)}
-\end{cases}
+  y = 
+  \begin{cases}
+    0 & \text{if $p1 \geq p2$\, (Normal)}\\
+    1 & \text{if $p2 > p1$\, (Tuberculosis)}
+  \end{cases}
 \end{equation}
 
 \subsection{Explainability}
-Deep neural networks have outperformed previous methods in several domains. However, 
-they remain black-boxes with millions of parameters, limiting their use
-in routine clinical practice. Several methods have been proposed to 
+Deep neural networks have outperformed previous methods in several domains  
+However, they remain black-boxes with millions of parameters, leading to a lack
+of trust and limiting their use in routine clinical practice. Several methods
+have been proposed to make these models more interpretable, broadly falling into
+two categories:
+\begin{enumerate}
+\item{Methods that create a proxy model which behaves similarly to the original
+    model, but is simpler and easier to understand. These include methods like
+    LIME\cite{ribeiro2016should} and SHAP\cite{NIPS2017_7062}. While these methods
+	are model-independent, they tend to be very slow.}
+\item{Methods that generate a salience map which highlights a small portion of
+    the input which is most relevant, in a single forward and backward pass
+	through the network. These include methods like
+    LRP\cite{bach2015pixel}, DeepLIFT\cite{shrikumar2017learning},
+    CAM\cite{zhou2016learning} and Grad-CAM\cite{selvaraju2017grad}.}
+\end{enumerate}
+We use the CAM method and use the term \emph{explanation} to mean a saliency map
+or heatmap. Given an input $x = \{\, x_{1}, x_{2}, x_{3} \dots x_{n} \,\} \in X$,
+and a set of class labels $L = \{\,l_1 ,l_2 ,l_3 \dots l_c\,\}$, the task is to compute
+the attribution $A = \{\,a_1, a_2, a_3 \dots a_n\,\} \in \mathbb{R} ^n$ for each
+class $l \in L$ where $a_i \in A$ is a measure of the relevance of the $i^{th}$ feature.\\
+
+The network consists of a fully convolutional DenseNet backbone followed by
+an adaptive-average-pooling layer and a single fully-connected layer.
+The fully convolutional part of the network results in $k$ $w$ x $h$ feature maps which
+are averaged along the width and height to form a $k$ dimensional vector, which is fed
+to the single fully-connected layer with $k$ input nodes and $c$ output nodes.
+If $f_i$ is the $i^{th}$ feature map and $w^j _i$ is the weight between the $i^{th}$
+input node and the $j^{th}$ output node in the fully-connected layer, the saliency map
+for the $j^{th}$ class label $M_j$ is
+\begin{equation}
+M_j = \sum _i \, w^j _i \, f_i
+\end{equation}
+$M_j$ is a $w$ x $h$ saliency map which is interpolated to the size of the input image
+and measures the relevance of each pixel to the model's decision regarding the $j^{th}$ class,
+and can be visualized as a heatmap (see figure \ref{basic_examples})
 
 \subsection{Generalizability}
+A \emph{test set} is considered representative of
+data that will be encountered in the external world and is used exclusively to evaluate a model.
+However, true generalization to new datasets with a different distribution may be lower
+than expected (see https://arxiv.org/abs/1806.00451). In this context,
+since most datasets are collected from a small number of hospital systems
+and x-ray machines, a model may perform well on the test set but fail to generalize
+to datasets from different hospital systems and machines. 
 
 \subsection{Fairness}
 

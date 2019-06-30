@@ -58,6 +58,7 @@
       \strng{authorbibnamehash}{e3feaa4f171f1d76468afe0292b78ba1}
       \strng{authornamehash}{14c4d8deb5aa46b032ffdac50af05728}
       \strng{authorfullhash}{e3feaa4f171f1d76468afe0292b78ba1}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -70,125 +71,59 @@
       \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Wang et al. - 2017 - ChestX-ray8 Hospital-Scale Chest X-Ray Database and Benchmarks on Weakly-Supervised Classification and Localization.pdf:pdf
       \endverb
     \endentry
-    \entry{lecun1998gradient}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{4}{}{%
-        {{hash=6a1aa6b7eab12b931ca7c7e3f927231d}{%
-           family={LeCun},
+    \entry{jaeger2014two}{article}{}
+      \name{author}{6}{}{%
+        {{hash=9dbcfe1201b57e0366cba35ad188fc39}{%
+           family={Jaeger},
+           familyi={J\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=361748512c66f81b646143444d376ace}{%
+           family={Candemir},
+           familyi={C\bibinitperiod},
+           given={Sema},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2dbaa1a2302cf67c0d7b29a644ab8457}{%
+           family={Antani},
+           familyi={A\bibinitperiod},
+           given={Sameer},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7fae364a9aae9e4bd8b50609221daa35}{%
+           family={W{á}ng},
+           familyi={W\bibinitperiod},
+           given={Y{ı̀}-Xi{á}ng\bibnamedelima J},
+           giveni={Y\bibinithyphendelim X\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6725dcbb99b01ce3585def9747e3c1a8}{%
+           family={Lu},
            familyi={L\bibinitperiod},
-           given={Yann},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=ac762f2592005edf6bad58f566967c6c}{%
-           family={Bottou},
-           familyi={B\bibinitperiod},
-           given={L{é}on},
-           giveni={L\bibinitperiod}}}%
-        {{hash=40a8e4774982146adc2688546f54efb2}{%
-           family={Bengio},
-           familyi={B\bibinitperiod},
-           given={Yoshua},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=844e183692f08a63f99285330fcf90cc}{%
-           family={Haffner},
-           familyi={H\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod}}}%
+           given={Pu-Xuan},
+           giveni={P\bibinithyphendelim X\bibinitperiod}}}%
+        {{hash=c7f0eabd299c5b9fbb6a38d35523440f}{%
+           family={Thoma},
+           familyi={T\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Taipei, Taiwan}%
+        {AME Publications}%
       }
-      \strng{namehash}{b3a9cc564356785439ff929fcc780b86}
-      \strng{fullhash}{77979fc90ec1a7232a5325c8fc64cfce}
-      \strng{bibnamehash}{77979fc90ec1a7232a5325c8fc64cfce}
-      \strng{authorbibnamehash}{77979fc90ec1a7232a5325c8fc64cfce}
-      \strng{authornamehash}{b3a9cc564356785439ff929fcc780b86}
-      \strng{authorfullhash}{77979fc90ec1a7232a5325c8fc64cfce}
+      \strng{namehash}{c34edcb5105910f77bc185c2d4d44208}
+      \strng{fullhash}{bf4dd7f058694899113fba0c62252e20}
+      \strng{bibnamehash}{bf4dd7f058694899113fba0c62252e20}
+      \strng{authorbibnamehash}{bf4dd7f058694899113fba0c62252e20}
+      \strng{authornamehash}{c34edcb5105910f77bc185c2d4d44208}
+      \strng{authorfullhash}{bf4dd7f058694899113fba0c62252e20}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the IEEE}
-      \field{number}{11}
-      \field{title}{Gradient-based learning applied to document recognition}
-      \field{volume}{86}
-      \field{year}{1998}
-      \field{pages}{2278\bibrangedash 2324}
-      \range{pages}{47}
-    \endentry
-    \entry{iandola2014densenet}{article}{}
-      \name{author}{6}{}{%
-        {{hash=be47ee0aea5a39faef0c92c8f89ddcbe}{%
-           family={Iandola},
-           familyi={I\bibinitperiod},
-           given={Forrest},
-           giveni={F\bibinitperiod}}}%
-        {{hash=02f45337c560e868b759a2808da0a5d0}{%
-           family={Moskewicz},
-           familyi={M\bibinitperiod},
-           given={Matt},
-           giveni={M\bibinitperiod}}}%
-        {{hash=1ebce94a92f410fe090dc3da9c8b632e}{%
-           family={Karayev},
-           familyi={K\bibinitperiod},
-           given={Sergey},
-           giveni={S\bibinitperiod}}}%
-        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
-           family={Girshick},
-           familyi={G\bibinitperiod},
-           given={Ross},
-           giveni={R\bibinitperiod}}}%
-        {{hash=90180e1a30742e0d15328bfe637c2ef4}{%
-           family={Darrell},
-           familyi={D\bibinitperiod},
-           given={Trevor},
-           giveni={T\bibinitperiod}}}%
-        {{hash=994177386e5a63171a7be588e97df7e5}{%
-           family={Keutzer},
-           familyi={K\bibinitperiod},
-           given={Kurt},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{11946c44b3152daadf3c14b3ff624d00}
-      \strng{fullhash}{0181841339a9deced55f5de1473c7319}
-      \strng{bibnamehash}{0181841339a9deced55f5de1473c7319}
-      \strng{authorbibnamehash}{0181841339a9deced55f5de1473c7319}
-      \strng{authornamehash}{11946c44b3152daadf3c14b3ff624d00}
-      \strng{authorfullhash}{0181841339a9deced55f5de1473c7319}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:1404.1869}
-      \field{title}{Densenet: Implementing efficient convnet descriptor pyramids}
+      \field{journaltitle}{Quantitative imaging in medicine and surgery}
+      \field{number}{6}
+      \field{title}{Two public chest X-ray datasets for computer-aided screening of pulmonary diseases}
+      \field{volume}{4}
       \field{year}{2014}
-    \endentry
-    \entry{kingma2014adam}{article}{}
-      \name{author}{2}{}{%
-        {{hash=b6fbd171848aad4edf3925543f1f1522}{%
-           family={Kingma},
-           familyi={K\bibinitperiod},
-           given={Diederik\bibnamedelima P},
-           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=8aa66e8231cc2fdbe67aa4f18ca970c6}{%
-           family={Ba},
-           familyi={B\bibinitperiod},
-           given={Jimmy},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{a09df9f123146b8e2c7f1134c9496932}
-      \strng{fullhash}{a09df9f123146b8e2c7f1134c9496932}
-      \strng{bibnamehash}{a09df9f123146b8e2c7f1134c9496932}
-      \strng{authorbibnamehash}{a09df9f123146b8e2c7f1134c9496932}
-      \strng{authornamehash}{a09df9f123146b8e2c7f1134c9496932}
-      \strng{authorfullhash}{a09df9f123146b8e2c7f1134c9496932}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:1412.6980}
-      \field{title}{Adam: A method for stochastic optimization}
-      \field{year}{2014}
+      \field{pages}{475}
+      \range{pages}{1}
     \endentry
     \entry{ribeiro2016should}{inproceedings}{}
       \name{author}{3}{}{%
@@ -217,8 +152,8 @@
       \strng{authorbibnamehash}{70906198418f30a779bc9bda0f6ae1f1}
       \strng{authornamehash}{70906198418f30a779bc9bda0f6ae1f1}
       \strng{authorfullhash}{70906198418f30a779bc9bda0f6ae1f1}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining}
@@ -289,8 +224,8 @@
       \strng{editorbibnamehash}{d19b63f60b76ff116a8eb515123b5698}
       \strng{editornamehash}{881b2b5c90f53236d28687f4a29122ce}
       \strng{editorfullhash}{d19b63f60b76ff116a8eb515123b5698}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Advances in Neural Information Processing Systems 30}
@@ -347,8 +282,8 @@
       \strng{authorbibnamehash}{37016b09eb3f9bd3e47f6b92dd80b5c1}
       \strng{authornamehash}{21bbc428cf6b24653a5583cfee6aaa4f}
       \strng{authorfullhash}{37016b09eb3f9bd3e47f6b92dd80b5c1}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{PloS one}
@@ -386,8 +321,8 @@
       \strng{authorbibnamehash}{4b297fb17a203bd54964d8dc30722046}
       \strng{authornamehash}{4b297fb17a203bd54964d8dc30722046}
       \strng{authorfullhash}{4b297fb17a203bd54964d8dc30722046}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 34th International Conference on Machine Learning-Volume 70}
@@ -430,8 +365,8 @@
       \strng{authorbibnamehash}{11813c4999ac7bb6f658ca15eb365e76}
       \strng{authornamehash}{90dabbe8106aa8bef1a3ddaf23bd101a}
       \strng{authorfullhash}{11813c4999ac7bb6f658ca15eb365e76}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the IEEE conference on computer vision and pattern recognition}
@@ -479,8 +414,8 @@
       \strng{authorbibnamehash}{aa15df90de6a99f6dc73b935fda62089}
       \strng{authornamehash}{fff664f5164b415fdecdf9f10a2ba192}
       \strng{authorfullhash}{aa15df90de6a99f6dc73b935fda62089}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the IEEE International Conference on Computer Vision}
@@ -518,8 +453,8 @@
       \strng{authorbibnamehash}{67fbf5628affa957ce13e7063c67d3d7}
       \strng{authornamehash}{c7e4a1c0b006729ad701331d3856a05e}
       \strng{authorfullhash}{67fbf5628affa957ce13e7063c67d3d7}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1806.00451}
@@ -568,6 +503,7 @@
       \strng{authorbibnamehash}{1481a5d8839dc87486f070d5b6b3b6c6}
       \strng{authornamehash}{5cd6b44c5ac2c78bcb9ae7f07a1160d8}
       \strng{authorfullhash}{1481a5d8839dc87486f070d5b6b3b6c6}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -925,8 +861,8 @@
       \strng{authorbibnamehash}{6ab07ac579bf17d04b49f954f4cfa136}
       \strng{authornamehash}{d880d80bb8e72249baefdfc8a3347ce1}
       \strng{authorfullhash}{6ab07ac579bf17d04b49f954f4cfa136}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -936,6 +872,55 @@
       \field{year}{2017}
       \field{pages}{115}
       \range{pages}{1}
+    \endentry
+    \entry{who_pneumonia}{misc}{}
+      \list{publisher}{1}{%
+        {World Health Organization}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{World Health Organization}
+      \field{month}{11}
+      \field{title}{Pneumonia}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.who.int/news-room/fact-sheets/detail/pneumonia
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/news-room/fact-sheets/detail/pneumonia
+      \endverb
+    \endentry
+    \entry{tb_poverty}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TB Alert}
+      \field{title}{TB and poverty}
+      \verb{urlraw}
+      \verb https://www.tbalert.org/about-tb/global-tb-challenges/tb-poverty/
+      \endverb
+      \verb{url}
+      \verb https://www.tbalert.org/about-tb/global-tb-challenges/tb-poverty/
+      \endverb
+    \endentry
+    \entry{who_tb}{misc}{}
+      \list{publisher}{1}{%
+        {World Health Organization}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{World Health Organization}
+      \field{month}{9}
+      \field{title}{Tuberculosis (TB)}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.who.int/news-room/fact-sheets/detail/tuberculosis
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/news-room/fact-sheets/detail/tuberculosis
+      \endverb
     \endentry
     \entry{modi_suresh_2019}{misc}{}
       \name{author}{2}{}{%
@@ -969,6 +954,1905 @@
       \endverb
       \verb{url}
       \verb http://blog.qure.ai/notes/scaling-up-tb-screening-with-ai
+      \endverb
+    \endentry
+    \entry{Wang2017}{article}{}
+      \name{author}{6}{}{%
+        {{hash=c524ce366a5f141c1da3c2505692aaf4}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaosong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=58f0be4b00c7f88fce41e14a40c7e7db}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Yifan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c88c438fdf38473dd68166ad17a42018}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Le},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3175f2725bdceeab4ed47c122439add7}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Zhiyong},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=30eb4e46395ffb8a34c99da83d675d2c}{%
+           family={Bagheri},
+           familyi={B\bibinitperiod},
+           given={Mohammadhadi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3cb874838345a043921eea69ab2809ee}{%
+           family={Summers},
+           familyi={S\bibinitperiod},
+           given={Ronald\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{14c4d8deb5aa46b032ffdac50af05728}
+      \strng{fullhash}{e3feaa4f171f1d76468afe0292b78ba1}
+      \strng{bibnamehash}{e3feaa4f171f1d76468afe0292b78ba1}
+      \strng{authorbibnamehash}{e3feaa4f171f1d76468afe0292b78ba1}
+      \strng{authornamehash}{14c4d8deb5aa46b032ffdac50af05728}
+      \strng{authorfullhash}{e3feaa4f171f1d76468afe0292b78ba1}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The chest X-ray is one of the most commonly accessible radiological examinations for screening and diagnosis of many lung diseases. A tremendous number of X-ray imaging studies accompanied by radiological reports are accumulated and stored in many modern hospitals' Picture Archiving and Communication Systems (PACS). On the other side, it is still an open question how this type of hospital-size knowledge database containing invaluable imaging informatics (i.e., loosely labeled) can be used to facilitate the data-hungry deep learning paradigms in building truly large-scale high precision computer-aided diagnosis (CAD) systems. In this paper, we present a new chest X-ray database, namely "ChestX-ray8", which comprises 108,948 frontal-view X-ray images of 32,717 unique patients with the text-mined eight disease image labels (where each image can have multi-labels), from the associated radiological reports using natural language processing. Importantly, we demonstrate that these commonly occurring thoracic diseases can be detected and even spatially-located via a unified weakly-supervised multi-label image classification and disease localization framework, which is validated using our proposed dataset. Although the initial quantitative results are promising as reported, deep convolutional neural network based "reading chest X-rays" (i.e., recognizing and locating the common disease patterns trained with only image-level labels) remains a strenuous task for fully-automated high precision CAD systems. Data download link: https://nihcc.app.box.com/v/ChestXray-NIHCC}
+      \field{eprinttype}{arXiv}
+      \field{month}{5}
+      \field{title}{{ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases}}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1109/CVPR.2017.369
+      \endverb
+      \verb{eprint}
+      \verb 1705.02315
+      \endverb
+      \verb{file}
+      \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Wang et al. - 2017 - ChestX-ray8 Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1705.02315 http://dx.doi.org/10.1109/CVPR.2017.369
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1705.02315%20http://dx.doi.org/10.1109/CVPR.2017.369
+      \endverb
+    \endentry
+    \entry{Guan2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=ac61ea1eb260199fca9549276bce937d}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Qingji},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=4f5ea317e704840e6903f6d36821a29a}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yaping},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5ffd59133d7d49ddc05ba07d2bbe8c66}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Zhun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=82b62813208a6079489f88ac7c55ab48}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Zhedong},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7f1ed47c0c1b22e46324b0745b5b65eb}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=446e84a6f09f26fc6cf5730853e551ba}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{2256475ecf70cd831cdc1e6bb3959167}
+      \strng{fullhash}{fda443131b64a1ace2fc10dba4818ce9}
+      \strng{bibnamehash}{fda443131b64a1ace2fc10dba4818ce9}
+      \strng{authorbibnamehash}{fda443131b64a1ace2fc10dba4818ce9}
+      \strng{authornamehash}{2256475ecf70cd831cdc1e6bb3959167}
+      \strng{authorfullhash}{fda443131b64a1ace2fc10dba4818ce9}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper considers the task of thorax disease classification on chest X-ray images. Existing methods generally use the global image as input for network learning. Such a strategy is limited in two aspects. 1) A thorax disease usually happens in (small) localized areas which are disease specific. Training CNNs using global image may be affected by the (excessive) irrelevant noisy areas. 2) Due to the poor alignment of some CXR images, the existence of irregular borders hinders the network performance. In this paper, we address the above problems by proposing a three-branch attention guided convolution neural network (AG-CNN). AG-CNN 1) learns from disease-specific regions to avoid noise and improve alignment, 2) also integrates a global branch to compensate the lost discriminative cues by local branch. Specifically, we first learn a global CNN branch using global images. Then, guided by the attention heat map generated from the global branch, we inference a mask to crop a discriminative region from the global image. The local region is used for training a local CNN branch. Lastly, we concatenate the last pooling layers of both the global and local branches for fine-tuning the fusion branch. The Comprehensive experiment is conducted on the ChestX-ray14 dataset. We first report a strong global baseline producing an average AUC of 0.841 with ResNet-50 as backbone. After combining the local cues with the global information, AG-CNN improves the average AUC to 0.868. While DenseNet-121 is used, the average AUC achieves 0.871, which is a new state of the art in the community.}
+      \field{annotation}{Attention}
+      \field{eprinttype}{arXiv}
+      \field{month}{1}
+      \field{title}{{Diagnose like a Radiologist: Attention Guided Convolutional Neural Network for Thorax Disease Classification}}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1801.09927
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1801.09927
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1801.09927
+      \endverb
+    \endentry
+    \entry{Tang2018}{incollection}{}
+      \name{author}{6}{}{%
+        {{hash=9eeeb9af804255a9f4ffbb97e012329c}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Yuxing},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c524ce366a5f141c1da3c2505692aaf4}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaosong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=cd464d05ab126acddcd311fcb206fe7f}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={Adam\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=c88c438fdf38473dd68166ad17a42018}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Le},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d4e7881f783fdeeb4c661c08e11afb67}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3cb874838345a043921eea69ab2809ee}{%
+           family={Summers},
+           familyi={S\bibinitperiod},
+           given={Ronald\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer, Cham}%
+      }
+      \strng{namehash}{59f16c721322d6600a6d6feea5d088d3}
+      \strng{fullhash}{1901db77c4e45111c48ae720df3a3eec}
+      \strng{bibnamehash}{1901db77c4e45111c48ae720df3a3eec}
+      \strng{authorbibnamehash}{1901db77c4e45111c48ae720df3a3eec}
+      \strng{authornamehash}{59f16c721322d6600a6d6feea5d088d3}
+      \strng{authorfullhash}{1901db77c4e45111c48ae720df3a3eec}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Attention and curriculum learning}
+      \field{month}{9}
+      \field{title}{{Attention-Guided Curriculum Learning for Weakly Supervised Classification and Localization of Thoracic Diseases on Chest Radiographs}}
+      \field{year}{2018}
+      \field{pages}{249\bibrangedash 258}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/978-3-030-00919-9_29
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-030-00919-9{\_}29
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-030-00919-9%7B%5C_%7D29
+      \endverb
+    \endentry
+    \entry{Wang2018b}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f0fcf796c6a28af4672ea644620068a3}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hongyu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=61a31907b440c2414a770161a7391533}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{05059973393ea1f2e41ff96346cc6cf4}
+      \strng{fullhash}{05059973393ea1f2e41ff96346cc6cf4}
+      \strng{bibnamehash}{05059973393ea1f2e41ff96346cc6cf4}
+      \strng{authorbibnamehash}{05059973393ea1f2e41ff96346cc6cf4}
+      \strng{authornamehash}{05059973393ea1f2e41ff96346cc6cf4}
+      \strng{authorfullhash}{05059973393ea1f2e41ff96346cc6cf4}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Computer-aided techniques may lead to more accurate and more acces-sible diagnosis of thorax diseases on chest radiography. Despite the success of deep learning-based solutions, this task remains a major challenge in smart healthcare, since it is intrinsically a weakly supervised learning problem. In this paper, we incorporate the attention mechanism into a deep convolutional neural network, and thus propose the ChestNet model to address effective diagnosis of thorax diseases on chest radiography. This model consists of two branches: a classification branch serves as a uniform feature extraction-classification network to free users from troublesome handcrafted feature extraction, and an attention branch exploits the correlation between class labels and the locations of patholog-ical abnormalities and allows the model to concentrate adaptively on the patholog-ically abnormal regions. We evaluated our model against three state-of-the-art deep learning models on the Chest X-ray 14 dataset using the official patient-wise split. The results indicate that our model outperforms other methods, which use no extra training data, in diagnosing 14 thorax diseases on chest radiography.}
+      \field{eprinttype}{arXiv}
+      \field{month}{7}
+      \field{title}{{ChestNet: A Deep Neural Network for Classification of Thoracic Diseases on Chest Radiography}}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1807.03058
+      \endverb
+      \verb{file}
+      \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Wang, Xia - 2018 - ChestNet A Deep Neural Network for Classification of Thoracic Diseases on Chest Radiography.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1807.03058
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1807.03058
+      \endverb
+    \endentry
+    \entry{Pesce2017}{article}{}
+      \name{author}{6}{}{%
+        {{hash=28fc2a4a19913a66b4e931ee635e7202}{%
+           family={Pesce},
+           familyi={P\bibinitperiod},
+           given={Emanuele},
+           giveni={E\bibinitperiod}}}%
+        {{hash=39f0713a9708094a013d1d078b077448}{%
+           family={Ypsilantis},
+           familyi={Y\bibinitperiod},
+           given={Petros-Pavlos},
+           giveni={P\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=7925e1cf551a219b3b371508330142d0}{%
+           family={Withey},
+           familyi={W\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+        {{hash=35dad3f4091e968746a8b706cfb882ce}{%
+           family={Bakewell},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d338542aabb0e24ae838482756df36c7}{%
+           family={Goh},
+           familyi={G\bibinitperiod},
+           given={Vicky},
+           giveni={V\bibinitperiod}}}%
+        {{hash=79ec95e553ea1b7ba7aeb83954688f02}{%
+           family={Montana},
+           familyi={M\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e04a61f6c364d3232340829dfe5b1e2}
+      \strng{fullhash}{773dc04d56501a22146ef96d442f7b35}
+      \strng{bibnamehash}{773dc04d56501a22146ef96d442f7b35}
+      \strng{authorbibnamehash}{773dc04d56501a22146ef96d442f7b35}
+      \strng{authornamehash}{5e04a61f6c364d3232340829dfe5b1e2}
+      \strng{authorfullhash}{773dc04d56501a22146ef96d442f7b35}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Machine learning approaches hold great potential for the automated detection of lung nodules in chest radiographs, but training the algorithms requires vary large amounts of manually annotated images, which are difficult to obtain. Weak labels indicating whether a radiograph is likely to contain pulmonary nodules are typically easier to obtain at scale by parsing historical free-text radiological reports associated to the radiographs. Using a repositotory of over 700,000 chest radiographs, in this study we demonstrate that promising nodule detection performance can be achieved using weak labels through convolutional neural networks for radiograph classification. We propose two network architectures for the classification of images likely to contain pulmonary nodules using both weak labels and manually-delineated bounding boxes, when these are available. Annotated nodules are used at training time to deliver a visual attention mechanism informing the model about its localisation performance. The first architecture extracts saliency maps from high-level convolutional layers and compares the estimated position of a nodule against the ground truth, when this is available. A corresponding localisation error is then back-propagated along with the softmax classification error. The second approach consists of a recurrent attention model that learns to observe a short sequence of smaller image portions through reinforcement learning. When a nodule annotation is available at training time, the reward function is modified accordingly so that exploring portions of the radiographs away from a nodule incurs a larger penalty. Our empirical results demonstrate the potential advantages of these architectures in comparison to competing methodologies.}
+      \field{annotation}{Attention}
+      \field{eprinttype}{arXiv}
+      \field{month}{12}
+      \field{title}{{Learning to detect chest radiographs containing lung nodules using visual attention networks}}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1016/j.media.2018.12.007
+      \endverb
+      \verb{eprint}
+      \verb 1712.00996
+      \endverb
+      \verb{file}
+      \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Pesce et al. - 2017 - Learning to detect chest radiographs containing lung nodules using visual attention networks.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1712.00996 http://dx.doi.org/10.1016/j.media.2018.12.007
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1712.00996%20http://dx.doi.org/10.1016/j.media.2018.12.007
+      \endverb
+    \endentry
+    \entry{Cai2018}{incollection}{}
+      \name{author}{6}{}{%
+        {{hash=4ec20e2e11cf95c1f52c7d42e36910f7}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Jinzheng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c88c438fdf38473dd68166ad17a42018}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Le},
+           giveni={L\bibinitperiod}}}%
+        {{hash=cd464d05ab126acddcd311fcb206fe7f}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={Adam\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=6998806573e3160aeb6d270c53278eb8}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Xiaoshuang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=4941f3171f602792a3e39bd56edf24cf}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Pingjun},
+           giveni={P\bibinitperiod}}}%
+        {{hash=eba68d34a25d8e0125cb5eeb7f44fbd9}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer, Cham}%
+      }
+      \strng{namehash}{15a70405b77ff759684db45d56132539}
+      \strng{fullhash}{45a4c9cc080bd7e5f76f40bbe949eb25}
+      \strng{bibnamehash}{45a4c9cc080bd7e5f76f40bbe949eb25}
+      \strng{authorbibnamehash}{45a4c9cc080bd7e5f76f40bbe949eb25}
+      \strng{authornamehash}{15a70405b77ff759684db45d56132539}
+      \strng{authorfullhash}{45a4c9cc080bd7e5f76f40bbe949eb25}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Attention}
+      \field{month}{9}
+      \field{title}{{Iterative Attention Mining for Weakly Supervised Thoracic Disease Pattern Localization in Chest X-Rays}}
+      \field{year}{2018}
+      \field{pages}{589\bibrangedash 598}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/978-3-030-00934-2_66
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-030-00934-2{\_}66
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-030-00934-2%7B%5C_%7D66
+      \endverb
+    \endentry
+    \entry{Yao}{article}{}
+      \name{author}{5}{}{%
+        {{hash=02f71913ccb0d9f1e99d70ec64b68c46}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f7f55742648113ce128f5974991a8ee9}{%
+           family={Poblenz},
+           familyi={P\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6d59c2bb6b2a03b3bd679fe5301c43af}{%
+           family={Dagunts},
+           familyi={D\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=83647091dc185e6436d161b036fd611b}{%
+           family={{\ldots}},
+           familyi={s\bibinitperiod},
+           given={B\bibnamedelima Covington\bibnamedelima -},
+           giveni={\bibinitperiod},
+           prefix={arXiv\bibnamedelimb preprint\bibnamedelima arXiv},
+           prefixi={a\bibinitperiod\bibinitdelim p\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+        {{hash=413cf5f72bf67f840eb30a2fa1a2f8ed}{%
+           family={2017},
+           familyi={2\bibinitperiod},
+           prefix={undefined},
+           prefixi={u\bibinitperiod}}}%
+      }
+      \strng{namehash}{a22d785745bb9b0158bc39e555433d80}
+      \strng{fullhash}{32a859438ddd9d5264450d0c26a38ccc}
+      \strng{bibnamehash}{32a859438ddd9d5264450d0c26a38ccc}
+      \strng{authorbibnamehash}{32a859438ddd9d5264450d0c26a38ccc}
+      \strng{authornamehash}{a22d785745bb9b0158bc39e555433d80}
+      \strng{authorfullhash}{32a859438ddd9d5264450d0c26a38ccc}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arxiv.org}
+      \field{title}{{Learning to diagnose from scratch by exploiting dependencies among labels}}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1710.10501
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1710.10501
+      \endverb
+    \endentry
+    \entry{Yao2018a}{article}{}
+      \name{author}{5}{}{%
+        {{hash=0c7219926b788f0561a5b75b8f724d73}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=efa871cc6184184987709ec413aea176}{%
+           family={Prosky},
+           familyi={P\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c21c6200bbe758f827b4ad83d0d1ef7f}{%
+           family={Poblenz},
+           familyi={P\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=455555c7175bebed605a503ecc84389b}{%
+           family={Covington},
+           familyi={C\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0c33c8d0898cebbe6139191b9c5e1fa5}{%
+           family={Lyman},
+           familyi={L\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{f0e6c2a2401c6513ad53562830edc71e}
+      \strng{fullhash}{8f32095d160e74c8228d02f7aa3cb2aa}
+      \strng{bibnamehash}{8f32095d160e74c8228d02f7aa3cb2aa}
+      \strng{authorbibnamehash}{8f32095d160e74c8228d02f7aa3cb2aa}
+      \strng{authornamehash}{f0e6c2a2401c6513ad53562830edc71e}
+      \strng{authorfullhash}{8f32095d160e74c8228d02f7aa3cb2aa}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Diagnostic imaging often requires the simultaneous identification of a multitude of findings of varied size and appearance. Beyond global indication of said findings, the prediction and display of localization information improves trust in and understanding of results when augmenting clinical workflow. Medical training data rarely includes more than global image-level labels as segmentations are time-consuming and expensive to collect. We introduce an approach to managing these practical constraints by applying a novel architecture which learns at multiple resolutions while generating saliency maps with weak supervision. Further, we parameterize the Log-Sum-Exp pooling function with a learnable lower-bounded adaptation (LSE-LBA) to build in a sharpness prior and better handle localizing abnormalities of different sizes using only image-level labels. Applying this approach to interpreting chest x-rays, we set the state of the art on 9 abnormalities in the NIH's CXR14 dataset while generating saliency maps with the highest resolution to date.}
+      \field{eprinttype}{arXiv}
+      \field{month}{3}
+      \field{title}{{Weakly Supervised Medical Diagnosis and Localization from Multiple Resolutions}}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1803.07703
+      \endverb
+      \verb{file}
+      \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Yao et al. - 2018 - Weakly Supervised Medical Diagnosis and Localization from Multiple Resolutions(3).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1803.07703
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1803.07703
+      \endverb
+    \endentry
+    \entry{Sedai2018}{incollection}{}
+      \name{author}{5}{}{%
+        {{hash=cc56b2ea08675251328b2b1fc7b84995}{%
+           family={Sedai},
+           familyi={S\bibinitperiod},
+           given={Suman},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d740bc313ac5fda3f064ab739c216727}{%
+           family={Mahapatra},
+           familyi={M\bibinitperiod},
+           given={Dwarikanath},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dbfc282073c3c0a824d475bb3e3dfca4}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Zongyuan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e30cad5dd7ad67f0a731cd09af229e0e}{%
+           family={Chakravorty},
+           familyi={C\bibinitperiod},
+           given={Rajib},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e3244b5356838575452b0d4023cdf641}{%
+           family={Garnavi},
+           familyi={G\bibinitperiod},
+           given={Rahil},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer, Cham}%
+      }
+      \strng{namehash}{5b04bbab93ede967b70edfbae4bfd76a}
+      \strng{fullhash}{72d5fb430b5618fe34c8cff10cf65d09}
+      \strng{bibnamehash}{72d5fb430b5618fe34c8cff10cf65d09}
+      \strng{authorbibnamehash}{72d5fb430b5618fe34c8cff10cf65d09}
+      \strng{authornamehash}{5b04bbab93ede967b70edfbae4bfd76a}
+      \strng{authorfullhash}{72d5fb430b5618fe34c8cff10cf65d09}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Multiscale as in multiple resolutions?}
+      \field{month}{9}
+      \field{title}{{Deep Multiscale Convolutional Feature Learning for Weakly Supervised Localization of Chest Pathologies in X-ray Images}}
+      \field{year}{2018}
+      \field{pages}{267\bibrangedash 275}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/978-3-030-00919-9_31
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-030-00919-9{\_}31
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-030-00919-9%7B%5C_%7D31
+      \endverb
+    \endentry
+    \entry{Rajpurkar2018}{article}{}
+      \name{author}{21}{}{%
+        {{hash=d928987fcfcc448e0b101168ce910c67}{%
+           family={Rajpurkar},
+           familyi={R\bibinitperiod},
+           given={Pranav},
+           giveni={P\bibinitperiod}}}%
+        {{hash=17dbdf9769aed87e3f35194f5b790bbf}{%
+           family={Irvin},
+           familyi={I\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dd53b1477745d0b9620317b96efdc17a}{%
+           family={Ball},
+           familyi={B\bibinitperiod},
+           given={Robyn\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=54afd523856291ff5de2faf7fe1e6465}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Kaylie},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b9f8e48edd67bac8e66e1bcabfb68c01}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Brandon},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9bb834204c64c832da501d8b15c7227c}{%
+           family={Mehta},
+           familyi={M\bibinitperiod},
+           given={Hershel},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cecb6ef4c5dc41c8b776ee9aa6dcc224}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod}}}%
+        {{hash=aef361c5ff3c55de14d5c59d9244d229}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Daisy},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2cf6fe930cc8866a036e7ae20e7395f2}{%
+           family={Bagul},
+           familyi={B\bibinitperiod},
+           given={Aarti},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f3b87612827d5a394ddaa95b607d1a73}{%
+           family={Langlotz},
+           familyi={L\bibinitperiod},
+           given={Curtis\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=5b98a4b659e3cecceed774f8b4a89b4d}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Bhavik\bibnamedelima N.},
+           giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=d4b9073046e85272650006eefef0c10c}{%
+           family={Yeom},
+           familyi={Y\bibinitperiod},
+           given={Kristen\bibnamedelima W.},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=e6cc06ca3d1d2419564dc9a23fcee4a0}{%
+           family={Shpanskaya},
+           familyi={S\bibinitperiod},
+           given={Katie},
+           giveni={K\bibinitperiod}}}%
+        {{hash=64ac55eae848e31593a78bb699f2fd2e}{%
+           family={Blankenberg},
+           familyi={B\bibinitperiod},
+           given={Francis\bibnamedelima G.},
+           giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=b83b97e2859d8c62f03d58d250cdf9ba}{%
+           family={Seekins},
+           familyi={S\bibinitperiod},
+           given={Jayne},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c42162051f9d3877f0ef8f65c105ffee}{%
+           family={Amrhein},
+           familyi={A\bibinitperiod},
+           given={Timothy\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b4d6e77c65bd10289fef087e250dacc0}{%
+           family={Mong},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bd4d26e0ff9b9c66185692f86c9b7981}{%
+           family={Halabi},
+           familyi={H\bibinitperiod},
+           given={Safwan\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d44db4371f570ae12daa9b317dc2aaef}{%
+           family={Zucker},
+           familyi={Z\bibinitperiod},
+           given={Evan\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=49e889356ff39df159461bc2895c7e16}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelima Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=d2b0365aae39a8b9219bc9c7754e7305}{%
+           family={Lungren},
+           familyi={L\bibinitperiod},
+           given={Matthew\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=af3eec7128cd10987c296ce76c19d6e0}{%
+           family={Sheikh},
+           familyi={S\bibinitperiod},
+           given={Aziz},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d72a211b131e4eb73ab145876a175eb3}
+      \strng{fullhash}{a5ab83de5f8e60b55da30f78521a9b3e}
+      \strng{bibnamehash}{a5ab83de5f8e60b55da30f78521a9b3e}
+      \strng{authorbibnamehash}{a5ab83de5f8e60b55da30f78521a9b3e}
+      \strng{authornamehash}{d72a211b131e4eb73ab145876a175eb3}
+      \strng{authorfullhash}{a5ab83de5f8e60b55da30f78521a9b3e}
+      \strng{editorbibnamehash}{af3eec7128cd10987c296ce76c19d6e0}
+      \strng{editornamehash}{af3eec7128cd10987c296ce76c19d6e0}
+      \strng{editorfullhash}{af3eec7128cd10987c296ce76c19d6e0}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1549-1676}
+      \field{journaltitle}{PLOS Medicine}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{{Deep learning for chest radiograph diagnosis: A retrospective comparison of the CheXNeXt algorithm to practicing radiologists}}
+      \field{volume}{15}
+      \field{year}{2018}
+      \field{pages}{e1002686}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pmed.1002686
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.plos.org/10.1371/journal.pmed.1002686
+      \endverb
+      \verb{url}
+      \verb http://dx.plos.org/10.1371/journal.pmed.1002686
+      \endverb
+    \endentry
+    \entry{Jaeger2014}{article}{}
+      \name{author}{14}{}{%
+        {{hash=9dbcfe1201b57e0366cba35ad188fc39}{%
+           family={Jaeger},
+           familyi={J\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=88faaf20ba41de1e34ab9d9db7bbc756}{%
+           family={Karargyris},
+           familyi={K\bibinitperiod},
+           given={Alexandros},
+           giveni={A\bibinitperiod}}}%
+        {{hash=361748512c66f81b646143444d376ace}{%
+           family={Candemir},
+           familyi={C\bibinitperiod},
+           given={Sema},
+           giveni={S\bibinitperiod}}}%
+        {{hash=254afc5ec605b82fe0c5e1e004c4ceb2}{%
+           family={Folio},
+           familyi={F\bibinitperiod},
+           given={Les},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f7eab2995c7d484563df4a28787d7884}{%
+           family={Siegelman},
+           familyi={S\bibinitperiod},
+           given={Jenifer},
+           giveni={J\bibinitperiod}}}%
+        {{hash=abe7b933484597718a6ab87a2197ede8}{%
+           family={Callaghan},
+           familyi={C\bibinitperiod},
+           given={Fiona},
+           giveni={F\bibinitperiod}}}%
+        {{hash=80ffb5cca6fa14a60c47ecdda6aafc85}{%
+           family={{Zhiyun Xue}},
+           familyi={Z\bibinitperiod}}}%
+        {{hash=845d43a0933aaeeb8f3c5d3966ee3b3b}{%
+           family={Palaniappan},
+           familyi={P\bibinitperiod},
+           given={Kannappan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3a444925c32dd77a2f402db7b3881a5b}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Rahul\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2dbaa1a2302cf67c0d7b29a644ab8457}{%
+           family={Antani},
+           familyi={A\bibinitperiod},
+           given={Sameer},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c7f0eabd299c5b9fbb6a38d35523440f}{%
+           family={Thoma},
+           familyi={T\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=837698270a6c0c384a3031e011e8fa68}{%
+           family={{Yi-Xiang Wang}},
+           familyi={Y\bibinitperiod}}}%
+        {{hash=f1a3fd7c633fa649d6314f979d3a4fb1}{%
+           family={{Pu-Xuan Lu}},
+           familyi={P\bibinitperiod}}}%
+        {{hash=2af135630067443e1c79b6c5c485d119}{%
+           family={McDonald},
+           familyi={M\bibinitperiod},
+           given={Clement\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b057c8702afe34727025f6b92f69072}
+      \strng{fullhash}{824655e6abc83bc266876f76c0954f3a}
+      \strng{bibnamehash}{824655e6abc83bc266876f76c0954f3a}
+      \strng{authorbibnamehash}{824655e6abc83bc266876f76c0954f3a}
+      \strng{authornamehash}{4b057c8702afe34727025f6b92f69072}
+      \strng{authorfullhash}{824655e6abc83bc266876f76c0954f3a}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Tuberculosis is a major health threat in many regions of the world. Opportunistic infections in immunocompromised HIV/AIDS patients and multi-drug-resistant bacterial strains have exacerbated the problem, while diagnosing tuberculosis still remains a challenge. When left undiagnosed and thus untreated, mortality rates of patients with tuberculosis are high. Standard diagnostics still rely on methods developed in the last century. They are slow and often unreliable. In an effort to reduce the burden of the disease, this paper presents our automated approach for detecting tuberculosis in conventional posteroanterior chest radiographs. We first extract the lung region using a graph cut segmentation method. For this lung region, we compute a set of texture and shape features, which enable the X-rays to be classified as normal or abnormal using a binary classifier. We measure the performance of our system on two datasets: a set collected by the tuberculosis control program of our local county's health department in the United States, and a set collected by Shenzhen Hospital, China. The proposed computer-aided diagnostic system for TB screening, which is ready for field deployment, achieves a performance that approaches the performance of human experts. We achieve an area under the ROC curve (AUC) of 87{\%} (78.3{\%} accuracy) for the first set, and an AUC of 90{\%} (84{\%} accuracy) for the second set. For the first set, we compare our system performance with the performance of radiologists. When trying not to miss any positive cases, radiologists achieve an accuracy of about 82{\%} on this set, and their false positive rate is about half of our system's rate.}
+      \field{issn}{0278-0062}
+      \field{journaltitle}{IEEE Transactions on Medical Imaging}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{{Automatic Tuberculosis Screening Using Chest Radiographs}}
+      \field{volume}{33}
+      \field{year}{2014}
+      \field{pages}{233\bibrangedash 245}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TMI.2013.2284099
+      \endverb
+      \verb{urlraw}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/24108713 http://ieeexplore.ieee.org/document/6616679/
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/24108713%20http://ieeexplore.ieee.org/document/6616679/
+      \endverb
+    \endentry
+    \entry{Lopes2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=12779d9cd4f643250971de74d5280a5f}{%
+           family={Lopes},
+           familyi={L\bibinitperiod},
+           given={U.K.},
+           giveni={U\bibinitperiod}}}%
+        {{hash=ddd9a8c3674d0cbeb793b79d154b1a3e}{%
+           family={Valiati},
+           familyi={V\bibinitperiod},
+           given={J.F.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pergamon}%
+      }
+      \strng{namehash}{7df99bd4135ee7bfd4f05ef6d1587eb6}
+      \strng{fullhash}{7df99bd4135ee7bfd4f05ef6d1587eb6}
+      \strng{bibnamehash}{7df99bd4135ee7bfd4f05ef6d1587eb6}
+      \strng{authorbibnamehash}{7df99bd4135ee7bfd4f05ef6d1587eb6}
+      \strng{authornamehash}{7df99bd4135ee7bfd4f05ef6d1587eb6}
+      \strng{authorfullhash}{7df99bd4135ee7bfd4f05ef6d1587eb6}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is estimated that in 2015, approximately 1.8 million people infected by tuberculosis died, most of them in developing countries. Many of those deaths could have been prevented if the disease had been detected at an earlier stage, but the most advanced diagnosis methods are still cost prohibitive for mass adoption. One of the most popular tuberculosis diagnosis methods is the analysis of frontal thoracic radiographs; however, the impact of this method is diminished by the need for individual analysis of each radiography by properly trained radiologists. Significant research can be found on automating diagnosis by applying computational techniques to medical images, thereby eliminating the need for individual image analysis and greatly diminishing overall costs. In addition, recent improvements on deep learning accomplished excellent results classifying images on diverse domains, but its application for tuberculosis diagnosis remains limited. Thus, the focus of this work is to produce an investigation that will advance the research in the area, presenting three proposals to the application of pre-trained convolutional neural networks as feature extractors to detect the disease. The proposals presented in this work are implemented and compared to the current literature. The obtained results are competitive with published works demonstrating the potential of pre-trained convolutional networks as medical image feature extractors.}
+      \field{issn}{0010-4825}
+      \field{journaltitle}{Computers in Biology and Medicine}
+      \field{month}{10}
+      \field{title}{{Pre-trained convolutional neural networks as feature extractors for tuberculosis detection}}
+      \field{volume}{89}
+      \field{year}{2017}
+      \field{pages}{135\bibrangedash 143}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/J.COMPBIOMED.2017.08.001
+      \endverb
+      \verb{file}
+      \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Lopes, Valiati - 2017 - Pre-trained convolutional neural networks as feature extractors for tuberculosis detection.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010482517302548
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010482517302548
+      \endverb
+    \endentry
+    \entry{Vajda2018}{article}{}
+      \name{author}{8}{}{%
+        {{hash=70d93073109988e3a010ce187cf7f4da}{%
+           family={Vajda},
+           familyi={V\bibinitperiod},
+           given={Szil{á}rd},
+           giveni={S\bibinitperiod}}}%
+        {{hash=88faaf20ba41de1e34ab9d9db7bbc756}{%
+           family={Karargyris},
+           familyi={K\bibinitperiod},
+           given={Alexandros},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9dbcfe1201b57e0366cba35ad188fc39}{%
+           family={Jaeger},
+           familyi={J\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=38915a3c1ffa68804cb6bdf4c588296a}{%
+           family={Santosh},
+           familyi={S\bibinitperiod},
+           given={K.C.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=361748512c66f81b646143444d376ace}{%
+           family={Candemir},
+           familyi={C\bibinitperiod},
+           given={Sema},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9f65936868c778e461c918c33a40c262}{%
+           family={Xue},
+           familyi={X\bibinitperiod},
+           given={Zhiyun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=2dbaa1a2302cf67c0d7b29a644ab8457}{%
+           family={Antani},
+           familyi={A\bibinitperiod},
+           given={Sameer},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c7f0eabd299c5b9fbb6a38d35523440f}{%
+           family={Thoma},
+           familyi={T\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{fa88bc84d0e22ebb6f4454b4009ed26d}
+      \strng{fullhash}{6bcd3561597df7892650eebb4edd9219}
+      \strng{bibnamehash}{6bcd3561597df7892650eebb4edd9219}
+      \strng{authorbibnamehash}{6bcd3561597df7892650eebb4edd9219}
+      \strng{authornamehash}{fa88bc84d0e22ebb6f4454b4009ed26d}
+      \strng{authorfullhash}{6bcd3561597df7892650eebb4edd9219}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0148-5598}
+      \field{journaltitle}{Journal of Medical Systems}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{{Feature Selection for Automatic Tuberculosis Screening in Frontal Chest Radiographs}}
+      \field{volume}{42}
+      \field{year}{2018}
+      \field{pages}{146}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s10916-018-0991-9
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10916-018-0991-9
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10916-018-0991-9
+      \endverb
+    \endentry
+    \entry{Hwang2016}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=00a13bb6a8594432a8aefce80b1967b3}{%
+           family={Hwang},
+           familyi={H\bibinitperiod},
+           given={Sangheum},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0d80862ce37f7536592676a8abab962c}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Hyo-Eun},
+           giveni={H\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=1fec5a73c30170a184cd2d2e5f2a2432}{%
+           family={Jeong},
+           familyi={J\bibinitperiod},
+           given={Jihoon},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b40597a43c01beef324b9cd999129725}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Hee-Jin},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=ad733e10886449a76d8ea4d55d6bef29}{%
+           family={Tourassi},
+           familyi={T\bibinitperiod},
+           given={Georgia\bibnamedelima D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=415b018a42c6132b2e474e0f0754d687}{%
+           family={Armato},
+           familyi={A\bibinitperiod},
+           given={Samuel\bibnamedelima G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {International Society for Optics}%
+        {Photonics}%
+      }
+      \strng{namehash}{dfc6f56f255d49ecda55b93dddb0a6c7}
+      \strng{fullhash}{f8a5775e8b2ac279c5385d2bb04a59da}
+      \strng{bibnamehash}{f8a5775e8b2ac279c5385d2bb04a59da}
+      \strng{authorbibnamehash}{f8a5775e8b2ac279c5385d2bb04a59da}
+      \strng{authornamehash}{dfc6f56f255d49ecda55b93dddb0a6c7}
+      \strng{authorfullhash}{f8a5775e8b2ac279c5385d2bb04a59da}
+      \strng{editorbibnamehash}{bbb971cd3badb03aaedaf9f137b93f92}
+      \strng{editornamehash}{bbb971cd3badb03aaedaf9f137b93f92}
+      \strng{editorfullhash}{bbb971cd3badb03aaedaf9f137b93f92}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Tuberculosis (TB) is one of the major global health threats especially in developing countries. Although newly diagnosed TB patients can be recovered with high cure rate, many curable TB patients in the developing countries are obliged to die because of delayed diagnosis, partly by the lack of radiography and radiologists. Therefore, developing a computer-aided diagnosis (CAD) system for TB screening can contribute to early diagnosis of TB, which results in prevention of deaths from TB. Currently, most CAD algorithms adopt carefully designed morphological features distinguishing different lesion types to improve screening performances. However, such engineered features cannot be guaranteed to be the best descriptors for TB screening. Deep learning has become a majority in machine learning society. Especially in computer vision fields, it has been verified that deep convolutional neural networks (CNN) is a very promising algorithm for various visual tasks. Since deep CNN enables end-to-end training from feature extraction to classification, it does not require objective-specific manual feature engineering. In this work, we designed CAD system based on deep CNN for automatic TB screening. Based on large-scale chest X-rays (CXRs), we achieved viable TB screening performance of 0.96, 0.93 and 0.88 in terms of AUC for three real field datasets, respectively, by exploiting the effect of transfer learning.}
+      \field{month}{3}
+      \field{title}{{A novel approach for tuberculosis screening based on deep convolutional neural networks}}
+      \field{volume}{9785}
+      \field{year}{2016}
+      \field{pages}{97852W}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1117/12.2216198
+      \endverb
+      \verb{urlraw}
+      \verb http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.2216198
+      \endverb
+      \verb{url}
+      \verb http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.2216198
+      \endverb
+      \keyw{Deep convolutional neural networks,TB CAD,TB screening,Transfer learning,Tuberculosis CAD,Tuberculosis screening}
+    \endentry
+    \entry{Islam2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=abc5b016c594b0613df9ac34113a29cd}{%
+           family={Islam},
+           familyi={I\bibinitperiod},
+           given={Mohammad\bibnamedelima Tariqul},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c47fe730064625a59c8adb6a957dc0e2}{%
+           family={Aowal},
+           familyi={A\bibinitperiod},
+           given={Md\bibnamedelima Abdul},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c94047c69fe2935c7b8e5b691dd2d96b}{%
+           family={Minhaz},
+           familyi={M\bibinitperiod},
+           given={Ahmed\bibnamedelima Tahseen},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=732badbf604cd5c952f3aaa13bb3f894}{%
+           family={Ashraf},
+           familyi={A\bibinitperiod},
+           given={Khalid},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1fa0d35e1f96f1853316952f28e0b0e}
+      \strng{fullhash}{ed9a31a014550ff88779531a85cb53a4}
+      \strng{bibnamehash}{ed9a31a014550ff88779531a85cb53a4}
+      \strng{authorbibnamehash}{ed9a31a014550ff88779531a85cb53a4}
+      \strng{authornamehash}{a1fa0d35e1f96f1853316952f28e0b0e}
+      \strng{authorfullhash}{ed9a31a014550ff88779531a85cb53a4}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Chest X-Rays (CXRs) are widely used for diagnosing abnormalities in the heart and lung area. Automatically detecting these abnormalities with high accuracy could greatly enhance real world diagnosis processes. Lack of standard publicly available dataset and benchmark studies, however, makes it difficult to compare various detection methods. In order to overcome these difficulties, we have used a publicly available Indiana CXR, JSRT and Shenzhen dataset and studied the performance of known deep convolutional network (DCN) architectures on different abnormalities. We find that the same DCN architecture doesn't perform well across all abnormalities. Shallow features or earlier layers consistently provide higher detection accuracy compared to deep features. We have also found ensemble models to improve classification significantly compared to single model. Combining these insight, we report the highest accuracy on chest X-Ray abnormality detection on these datasets. We find that for cardiomegaly detection, the deep learning method improves the accuracy by a staggering 17 percentage point compared to rule based methods. We applied the techniques to the problem of tuberculosis detection on a different dataset and achieved the highest accuracy. Our localization experiments using these trained classifiers show that for spatially spread out abnormalities like cardiomegaly and pulmonary edema, the network can localize the abnormalities successfully most of the time. One remarkable result of the cardiomegaly localization is that the heart and its surrounding region is most responsible for cardiomegaly detection, in contrast to the rule based models where the ratio of heart and lung area is used as the measure. We believe that through deep learning based classification and localization, we will discover many more interesting features in medical image diagnosis that are not considered traditionally.}
+      \field{eprinttype}{arXiv}
+      \field{month}{5}
+      \field{title}{{Abnormality Detection and Localization in Chest X-Rays using Deep Convolutional Neural Networks}}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1705.09850
+      \endverb
+      \verb{file}
+      \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Islam et al. - 2017 - Abnormality Detection and Localization in Chest X-Rays using Deep Convolutional Neural Networks(2).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1705.09850
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1705.09850
+      \endverb
+    \endentry
+    \entry{Haloi2018a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=685033cb6ef81b3ffe75f128b1d61d59}{%
+           family={Haloi},
+           familyi={H\bibinitperiod},
+           given={Mrinal},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e73dbe0addfdde684c3ff2ad4430939e}{%
+           family={Rajalakshmi},
+           familyi={R\bibinitperiod},
+           given={K.\bibnamedelimi Raja},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=95458e38c0ba0cdf5009e3ac812eb203}{%
+           family={Walia},
+           familyi={W\bibinitperiod},
+           given={Pradeep},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7c54ddae3b5632fb0d5b7dcfbc1f7ae}
+      \strng{fullhash}{b7c54ddae3b5632fb0d5b7dcfbc1f7ae}
+      \strng{bibnamehash}{b7c54ddae3b5632fb0d5b7dcfbc1f7ae}
+      \strng{authorbibnamehash}{b7c54ddae3b5632fb0d5b7dcfbc1f7ae}
+      \strng{authornamehash}{b7c54ddae3b5632fb0d5b7dcfbc1f7ae}
+      \strng{authorfullhash}{b7c54ddae3b5632fb0d5b7dcfbc1f7ae}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this work, we propose advanced pneumonia and Tuberculosis grading system for X-ray images. The proposed system is a very deep fully convolutional classification network with online augmentation that outputs confidence values for diseases prevalence. Its a fully automated system capable of disease feature understanding without any offline preprocessing step or manual feature extraction. We have achieved state- of-the- art performance on the public databases such as ChestXray-14, Mendeley, Shenzhen Hospital X-ray and Belarus X-ray set.}
+      \field{eprinttype}{arXiv}
+      \field{month}{6}
+      \field{title}{{Towards Radiologist-Level Accurate Deep Learning System for Pulmonary Screening}}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1807.03120
+      \endverb
+      \verb{file}
+      \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Haloi, Rajalakshmi, Walia - 2018 - Towards Radiologist-Level Accurate Deep Learning System for Pulmonary Screening(2).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1807.03120
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1807.03120
+      \endverb
+    \endentry
+    \entry{Liu2018}{incollection}{}
+      \name{author}{7}{}{%
+        {{hash=9c10e1d8fa5bbaa8a952e2df41e191eb}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Junyu},
+           giveni={J\bibinitperiod}}}%
+        {{hash=621013bf54d3546375ad71f17f020b5b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f21a8e1746c7e003133037dc9888a372}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6bb8959bf3c788ba78601f84b24fac43}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Anwei},
+           giveni={A\bibinitperiod}}}%
+        {{hash=252143824081f67fc8f79d3de7eb0eed}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Bowen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5d36e3292aad8d84d41f80a72e0d3c62}{%
+           family={Chai},
+           familyi={C\bibinitperiod},
+           given={Xiangfei},
+           giveni={X\bibinitperiod}}}%
+        {{hash=f4d335365d80efa1f9289e4b2fabf593}{%
+           family={Zuo},
+           familyi={Z\bibinitperiod},
+           given={Panli},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer, Cham}%
+      }
+      \strng{namehash}{49fb677e5e156e61f510b62e1512f1c8}
+      \strng{fullhash}{b6ced8c54dc7274c1e84db5ee07a3620}
+      \strng{bibnamehash}{b6ced8c54dc7274c1e84db5ee07a3620}
+      \strng{authorbibnamehash}{b6ced8c54dc7274c1e84db5ee07a3620}
+      \strng{authornamehash}{49fb677e5e156e61f510b62e1512f1c8}
+      \strng{authorfullhash}{b6ced8c54dc7274c1e84db5ee07a3620}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{{An Original Neural Network for Pulmonary Tuberculosis Diagnosis in Radiographs}}
+      \field{year}{2018}
+      \field{pages}{158\bibrangedash 166}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/978-3-030-01421-6_16
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-030-01421-6{\_}16
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-030-01421-6%7B%5C_%7D16
+      \endverb
+    \endentry
+    \entry{VanNoord2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2f60d033434046cc2ca16fe6b36c1d5c}{%
+           family={Noord},
+           familyi={N\bibinitperiod},
+           given={Nanne},
+           giveni={N\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=42ac0ed20b82df7a89b9a9f44b0cfa07}{%
+           family={Postma},
+           familyi={P\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pergamon}%
+      }
+      \strng{namehash}{63887c4301986e0b453b088d4eed91b8}
+      \strng{fullhash}{63887c4301986e0b453b088d4eed91b8}
+      \strng{bibnamehash}{63887c4301986e0b453b088d4eed91b8}
+      \strng{authorbibnamehash}{63887c4301986e0b453b088d4eed91b8}
+      \strng{authornamehash}{63887c4301986e0b453b088d4eed91b8}
+      \strng{authorfullhash}{63887c4301986e0b453b088d4eed91b8}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Convolutional Neural Networks (CNNs) require large image corpora to be trained on classification tasks. The variation in image resolutions, sizes of objects and patterns depicted, and image scales, hampers CNN training and performance, because the task-relevant information varies over spatial scales. Previous work attempting to deal with such scale variations focused on encouraging scale-invariant CNN representations. However, scale-invariant representations are incomplete representations of images, because images contain scale-variant information as well. This paper addresses the combined development of scale-invariant and scale-variant representations. We propose a multi-scale CNN method to encourage the recognition of both types of features and evaluate it on a challenging image classification task involving task-relevant characteristics at multiple scales. The results show that our multi-scale CNN outperforms single-scale CNN. This leads to the conclusion that encouraging the combined development of a scale-invariant and scale-variant representation in CNNs is beneficial to image recognition performance.}
+      \field{annotation}{Similar to our method. Scale invariance?}
+      \field{issn}{0031-3203}
+      \field{journaltitle}{Pattern Recognition}
+      \field{month}{1}
+      \field{title}{{Learning scale-variant and scale-invariant features for deep image classification}}
+      \field{volume}{61}
+      \field{year}{2017}
+      \field{pages}{583\bibrangedash 592}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/J.PATCOG.2016.06.005
+      \endverb
+      \verb{file}
+      \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/van Noord, Postma - 2017 - Learning scale-variant and scale-invariant features for deep image classification.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0031320316301224
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0031320316301224
+      \endverb
+    \endentry
+    \entry{Zhang2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=2055fe99efa178d6f877d718047b0390}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Hongyi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c55edd870afd5174d08d32e8560235f0}{%
+           family={Cisse},
+           familyi={C\bibinitperiod},
+           given={Moustapha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ea1ca71b064fbb7ec15bd2e49e287ea9}{%
+           family={Dauphin},
+           familyi={D\bibinitperiod},
+           given={Yann\bibnamedelima N.},
+           giveni={Y\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=47d681c0cbae75196012a538c46ccc06}{%
+           family={Lopez-Paz},
+           familyi={L\bibinithyphendelim P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{07770d4718b2f9fd68a8cdcad7ba88fe}
+      \strng{fullhash}{99e17545100e06ee9db2c0f295e2db48}
+      \strng{bibnamehash}{99e17545100e06ee9db2c0f295e2db48}
+      \strng{authorbibnamehash}{99e17545100e06ee9db2c0f295e2db48}
+      \strng{authornamehash}{07770d4718b2f9fd68a8cdcad7ba88fe}
+      \strng{authorfullhash}{99e17545100e06ee9db2c0f295e2db48}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Large deep neural networks are powerful, but exhibit undesirable behaviors such as memorization and sensitivity to adversarial examples. In this work, we propose mixup, a simple learning principle to alleviate these issues. In essence, mixup trains a neural network on convex combinations of pairs of examples and their labels. By doing so, mixup regularizes the neural network to favor simple linear behavior in-between training examples. Our experiments on the ImageNet-2012, CIFAR-10, CIFAR-100, Google commands and UCI datasets show that mixup improves the generalization of state-of-the-art neural network architectures. We also find that mixup reduces the memorization of corrupt labels, increases the robustness to adversarial examples, and stabilizes the training of generative adversarial networks.}
+      \field{eprinttype}{arXiv}
+      \field{month}{10}
+      \field{title}{{mixup: Beyond Empirical Risk Minimization}}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1710.09412
+      \endverb
+      \verb{file}
+      \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Zhang et al. - 2017 - mixup Beyond Empirical Risk Minimization(2).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1710.09412
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1710.09412
+      \endverb
+    \endentry
+    \entry{huang2017densely}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=0d12f90a1d1945cb1b98f583c9dc9572}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Gao},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f7eda249dc15ce9f452344ec95bbcc67}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhuang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a33ababcca5b83a7777452957fb2eef2}{%
+           family={Van\bibnamedelimb Der\bibnamedelima Maaten},
+           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Laurens},
+           giveni={L\bibinitperiod}}}%
+        {{hash=68a0238356fbd88b34be8886f25938a7}{%
+           family={Weinberger},
+           familyi={W\bibinitperiod},
+           given={Kilian\bibnamedelima Q},
+           giveni={K\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc85b31005c23904ab95c5283b50494c}
+      \strng{fullhash}{ec6d0d953a00cc76cc77fbf9d9e1ec27}
+      \strng{bibnamehash}{ec6d0d953a00cc76cc77fbf9d9e1ec27}
+      \strng{authorbibnamehash}{ec6d0d953a00cc76cc77fbf9d9e1ec27}
+      \strng{authornamehash}{dc85b31005c23904ab95c5283b50494c}
+      \strng{authorfullhash}{ec6d0d953a00cc76cc77fbf9d9e1ec27}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE conference on computer vision and pattern recognition}
+      \field{title}{Densely connected convolutional networks}
+      \field{year}{2017}
+      \field{pages}{4700\bibrangedash 4708}
+      \range{pages}{9}
+    \endentry
+    \entry{kingma2014adam}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b6fbd171848aad4edf3925543f1f1522}{%
+           family={Kingma},
+           familyi={K\bibinitperiod},
+           given={Diederik\bibnamedelima P},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=8aa66e8231cc2fdbe67aa4f18ca970c6}{%
+           family={Ba},
+           familyi={B\bibinitperiod},
+           given={Jimmy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{fullhash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{bibnamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authorbibnamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authornamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authorfullhash}{a09df9f123146b8e2c7f1134c9496932}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1412.6980}
+      \field{title}{Adam: A method for stochastic optimization}
+      \field{year}{2014}
+    \endentry
+    \entry{kermany2018identifying}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=2314f3f35a4fbcac9dbb0df5451f6207}{%
+           family={Kermany},
+           familyi={K\bibinitperiod},
+           given={Daniel\bibnamedelima S},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4529d160647c075f4855f57cce9801cf}{%
+           family={Goldbaum},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9cdaf94f6a70ed7d9aeaa56c40617db4}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Wenjia},
+           giveni={W\bibinitperiod}}}%
+        {{hash=b5b1c1095ce667f3f077a209b0a4d10a}{%
+           family={Valentim},
+           familyi={V\bibinitperiod},
+           given={Carolina\bibnamedelima CS},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=dbffecc110e973557c5576e4937817aa}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Huiying},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8a649a20e66854b1b48bf2a9db5135ca}{%
+           family={Baxter},
+           familyi={B\bibinitperiod},
+           given={Sally\bibnamedelima L},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=8820cd63f569ecba4c3b9a2cc90beb35}{%
+           family={McKeown},
+           familyi={M\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aea28139ba5a2d0b205da890b63300d4}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Ge},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a28c8a34ba7b73a9971124153a086354}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xiaokang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=f30d6d85e324c49bc4ca0aa5159d0c9b}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Fangbing},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{632f82324b221d9617cb32affd2bf70f}
+      \strng{fullhash}{de576c8e23db2b781f4a63d1766d2e38}
+      \strng{bibnamehash}{de576c8e23db2b781f4a63d1766d2e38}
+      \strng{authorbibnamehash}{de576c8e23db2b781f4a63d1766d2e38}
+      \strng{authornamehash}{632f82324b221d9617cb32affd2bf70f}
+      \strng{authorfullhash}{de576c8e23db2b781f4a63d1766d2e38}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell}
+      \field{number}{5}
+      \field{title}{Identifying medical diagnoses and treatable diseases by image-based deep learning}
+      \field{volume}{172}
+      \field{year}{2018}
+      \field{pages}{1122\bibrangedash 1131}
+      \range{pages}{10}
+    \endentry
+    \entry{rolnick2017deep}{article}{}
+      \name{author}{4}{}{%
+        {{hash=148ce343efcf9f02663d801b4860811c}{%
+           family={Rolnick},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fef2684833146eb1bd778cddca8caf2e}{%
+           family={Veit},
+           familyi={V\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=044d1db5259b74e4975282f599d8e767}{%
+           family={Belongie},
+           familyi={B\bibinitperiod},
+           given={Serge},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3e2aee6574e3dcbdbc582166218008cb}{%
+           family={Shavit},
+           familyi={S\bibinitperiod},
+           given={Nir},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae332fae4c66a7d0346ad54d9c276232}
+      \strng{fullhash}{97b386996a759be9037acbe0087d070e}
+      \strng{bibnamehash}{97b386996a759be9037acbe0087d070e}
+      \strng{authorbibnamehash}{97b386996a759be9037acbe0087d070e}
+      \strng{authornamehash}{ae332fae4c66a7d0346ad54d9c276232}
+      \strng{authorfullhash}{97b386996a759be9037acbe0087d070e}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1705.10694}
+      \field{title}{Deep learning is robust to massive label noise}
+      \field{year}{2017}
+    \endentry
+    \entry{he2015delving}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=6b4b60e909e78633945f3f9c9dc83e01}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kaiming},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5e72bc22dbcf0984c6d113d280e36990}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiangyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=bb295293acacd54387339079ebbe4ead}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Shaoqing},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f85751488058842b5777c7b4074077b5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{3733dbdff90171390240438fddfbc952}
+      \strng{fullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{bibnamehash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{authorbibnamehash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{authornamehash}{3733dbdff90171390240438fddfbc952}
+      \strng{authorfullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE international conference on computer vision}
+      \field{title}{Delving deep into rectifiers: Surpassing human-level performance on imagenet classification}
+      \field{year}{2015}
+      \field{pages}{1026\bibrangedash 1034}
+      \range{pages}{9}
+    \endentry
+    \entry{Zech2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=f126ef7e15f6e02f2226acc7927794a1}{%
+           family={Zech},
+           familyi={Z\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=dbdbe797e5a6c86c1da37c8878ff2719}{%
+           family={Badgeley},
+           familyi={B\bibinitperiod},
+           given={Marcus\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c1f45d9adba8c74ffc0288b4bb6ba7f2}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Manway},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b7a35041a13c87cab687fe32ae2d5fe1}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Anthony\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=2c54a6a5f92f9f6ebb7a539bb2f7876a}{%
+           family={Titano},
+           familyi={T\bibinitperiod},
+           given={Joseph\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=31da86024f27cbb6b37c0c86c9e0fd88}{%
+           family={Oermann},
+           familyi={O\bibinitperiod},
+           given={Eric\bibnamedelima Karl},
+           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=af3eec7128cd10987c296ce76c19d6e0}{%
+           family={Sheikh},
+           familyi={S\bibinitperiod},
+           given={Aziz},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{5cd6b44c5ac2c78bcb9ae7f07a1160d8}
+      \strng{fullhash}{1481a5d8839dc87486f070d5b6b3b6c6}
+      \strng{bibnamehash}{1481a5d8839dc87486f070d5b6b3b6c6}
+      \strng{authorbibnamehash}{1481a5d8839dc87486f070d5b6b3b6c6}
+      \strng{authornamehash}{5cd6b44c5ac2c78bcb9ae7f07a1160d8}
+      \strng{authorfullhash}{1481a5d8839dc87486f070d5b6b3b6c6}
+      \strng{editorbibnamehash}{af3eec7128cd10987c296ce76c19d6e0}
+      \strng{editornamehash}{af3eec7128cd10987c296ce76c19d6e0}
+      \strng{editorfullhash}{af3eec7128cd10987c296ce76c19d6e0}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background There is interest in using convolutional neural networks (CNNs) to analyze medical imaging to provide computer-aided diagnosis (CAD). Recent work has suggested that image classification CNNs may not generalize to new data as well as previously believed. We assessed how well CNNs generalized across three hospital systems for a simulated pneumonia screening task. Methods and findings A cross-sectional design with multiple model training cohorts was used to evaluate model generalizability to external sites using split-sample validation. A total of 158,323 chest radiographs were drawn from three institutions: National Institutes of Health Clinical Center (NIH; 112,120 from 30,805 patients), Mount Sinai Hospital (MSH; 42,396 from 12,904 patients), and Indiana University Network for Patient Care (IU; 3,807 from 3,683 patients). These patient populations had an age mean (SD) of 46.9 years (16.6), 63.2 years (16.5), and 49.6 years (17) with a female percentage of 43.5{\%}, 44.8{\%}, and 57.3{\%}, respectively. We assessed individual models using the area under the receiver operating characteristic curve (AUC) for radiographic findings consistent with pneumonia and compared performance on different test sets with DeLong's test. The prevalence of pneumonia was high enough at MSH (34.2{\%}) relative to NIH and IU (1.2{\%} and 1.0{\%}) that merely sorting by hospital system achieved an AUC of 0.861 (95{\%} CI 0.855–0.866) on the joint MSH–NIH dataset. Models trained on data from either NIH or MSH had equivalent performance on IU (P values 0.580 and 0.273, respectively) and inferior performance on data from each other relative to an internal test set (i.e., new data from within the hospital system used for training data; P values both {<}0.001). The highest internal performance was achieved by combining training and test data from MSH and NIH (AUC 0.931, 95{\%} CI 0.927–0.936), but this model demonstrated significantly lower external performance at IU (AUC 0.815, 95{\%} CI 0.745–0.885, P = 0.001). To test the effect of pooling data from sites with disparate pneumonia prevalence, we used stratified subsampling to generate MSH–NIH cohorts that only differed in disease prevalence between training data sites. When both training data sites had the same pneumonia prevalence, the model performed consistently on external IU data (P = 0.88). When a 10-fold difference in pneumonia rate was introduced between sites, internal test performance improved compared to the balanced model (10× MSH risk P {<} 0.001; 10× NIH P = 0.002), but this outperformance failed to generalize to IU (MSH 10× P {<} 0.001; NIH 10× P = 0.027). CNNs were able to directly detect hospital system of a radiograph for 99.95{\%} NIH (22,050/22,062) and 99.98{\%} MSH (8,386/8,388) radiographs. The primary limitation of our approach and the available public data is that we cannot fully assess what other factors might be contributing to hospital system–specific biases. Conclusion Pneumonia-screening CNNs achieved better internal than external performance in 3 out of 5 natural comparisons. When models were trained on pooled data from sites with different pneumonia prevalence, they performed better on new pooled data from these sites but not on external data. CNNs robustly identified hospital system and department within a hospital, which can have large differences in disease burden and may confound predictions.}
+      \field{issn}{1549-1676}
+      \field{journaltitle}{PLOS Medicine}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{{Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study}}
+      \field{volume}{15}
+      \field{year}{2018}
+      \field{pages}{e1002683}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pmed.1002683
+      \endverb
+      \verb{file}
+      \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Zech et al. - 2018 - Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs A cross-secti.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.plos.org/10.1371/journal.pmed.1002683
+      \endverb
+      \verb{url}
+      \verb http://dx.plos.org/10.1371/journal.pmed.1002683
+      \endverb
+    \endentry
+    \entry{Rajpurkar2018a}{article}{}
+      \name{author}{21}{}{%
+        {{hash=d928987fcfcc448e0b101168ce910c67}{%
+           family={Rajpurkar},
+           familyi={R\bibinitperiod},
+           given={Pranav},
+           giveni={P\bibinitperiod}}}%
+        {{hash=17dbdf9769aed87e3f35194f5b790bbf}{%
+           family={Irvin},
+           familyi={I\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dd53b1477745d0b9620317b96efdc17a}{%
+           family={Ball},
+           familyi={B\bibinitperiod},
+           given={Robyn\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=54afd523856291ff5de2faf7fe1e6465}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Kaylie},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b9f8e48edd67bac8e66e1bcabfb68c01}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Brandon},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9bb834204c64c832da501d8b15c7227c}{%
+           family={Mehta},
+           familyi={M\bibinitperiod},
+           given={Hershel},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cecb6ef4c5dc41c8b776ee9aa6dcc224}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod}}}%
+        {{hash=aef361c5ff3c55de14d5c59d9244d229}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Daisy},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2cf6fe930cc8866a036e7ae20e7395f2}{%
+           family={Bagul},
+           familyi={B\bibinitperiod},
+           given={Aarti},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f3b87612827d5a394ddaa95b607d1a73}{%
+           family={Langlotz},
+           familyi={L\bibinitperiod},
+           given={Curtis\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=5b98a4b659e3cecceed774f8b4a89b4d}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Bhavik\bibnamedelima N.},
+           giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=d4b9073046e85272650006eefef0c10c}{%
+           family={Yeom},
+           familyi={Y\bibinitperiod},
+           given={Kristen\bibnamedelima W.},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=e6cc06ca3d1d2419564dc9a23fcee4a0}{%
+           family={Shpanskaya},
+           familyi={S\bibinitperiod},
+           given={Katie},
+           giveni={K\bibinitperiod}}}%
+        {{hash=64ac55eae848e31593a78bb699f2fd2e}{%
+           family={Blankenberg},
+           familyi={B\bibinitperiod},
+           given={Francis\bibnamedelima G.},
+           giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=b83b97e2859d8c62f03d58d250cdf9ba}{%
+           family={Seekins},
+           familyi={S\bibinitperiod},
+           given={Jayne},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c42162051f9d3877f0ef8f65c105ffee}{%
+           family={Amrhein},
+           familyi={A\bibinitperiod},
+           given={Timothy\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b4d6e77c65bd10289fef087e250dacc0}{%
+           family={Mong},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bd4d26e0ff9b9c66185692f86c9b7981}{%
+           family={Halabi},
+           familyi={H\bibinitperiod},
+           given={Safwan\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d44db4371f570ae12daa9b317dc2aaef}{%
+           family={Zucker},
+           familyi={Z\bibinitperiod},
+           given={Evan\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=49e889356ff39df159461bc2895c7e16}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelima Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=d2b0365aae39a8b9219bc9c7754e7305}{%
+           family={Lungren},
+           familyi={L\bibinitperiod},
+           given={Matthew\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=af3eec7128cd10987c296ce76c19d6e0}{%
+           family={Sheikh},
+           familyi={S\bibinitperiod},
+           given={Aziz},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{d72a211b131e4eb73ab145876a175eb3}
+      \strng{fullhash}{a5ab83de5f8e60b55da30f78521a9b3e}
+      \strng{bibnamehash}{a5ab83de5f8e60b55da30f78521a9b3e}
+      \strng{authorbibnamehash}{a5ab83de5f8e60b55da30f78521a9b3e}
+      \strng{authornamehash}{d72a211b131e4eb73ab145876a175eb3}
+      \strng{authorfullhash}{a5ab83de5f8e60b55da30f78521a9b3e}
+      \strng{editorbibnamehash}{af3eec7128cd10987c296ce76c19d6e0}
+      \strng{editornamehash}{af3eec7128cd10987c296ce76c19d6e0}
+      \strng{editorfullhash}{af3eec7128cd10987c296ce76c19d6e0}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background Chest radiograph interpretation is critical for the detection of thoracic diseases, including tuberculosis and lung cancer, which affect millions of people worldwide each year. This time-consuming task typically requires expert radiologists to read the images, leading to fatigue-based diagnostic error and lack of diagnostic expertise in areas of the world where radiologists are not available. Recently, deep learning approaches have been able to achieve expert-level performance in medical image interpretation tasks, powered by large network architectures and fueled by the emergence of large labeled datasets. The purpose of this study is to investigate the performance of a deep learning algorithm on the detection of pathologies in chest radiographs compared with practicing radiologists. Methods and findings We developed CheXNeXt, a convolutional neural network to concurrently detect the presence of 14 different pathologies, including pneumonia, pleural effusion, pulmonary masses, and nodules in frontal-view chest radiographs. CheXNeXt was trained and internally validated on the ChestX-ray8 dataset, with a held-out validation set consisting of 420 images, sampled to contain at least 50 cases of each of the original pathology labels. On this validation set, the majority vote of a panel of 3 board-certified cardiothoracic specialist radiologists served as reference standard. We compared CheXNeXt's discriminative performance on the validation set to the performance of 9 radiologists using the area under the receiver operating characteristic curve (AUC). The radiologists included 6 board-certified radiologists (average experience 12 years, range 4–28 years) and 3 senior radiology residents, from 3 academic institutions. We found that CheXNeXt achieved radiologist-level performance on 11 pathologies and did not achieve radiologist-level performance on 3 pathologies. The radiologists achieved statistically significantly higher AUC performance on cardiomegaly, emphysema, and hiatal hernia, with AUCs of 0.888 (95{\%} confidence interval [CI] 0.863–0.910), 0.911 (95{\%} CI 0.866–0.947), and 0.985 (95{\%} CI 0.974–0.991), respectively, whereas CheXNeXt's AUCs were 0.831 (95{\%} CI 0.790–0.870), 0.704 (95{\%} CI 0.567–0.833), and 0.851 (95{\%} CI 0.785–0.909), respectively. CheXNeXt performed better than radiologists in detecting atelectasis, with an AUC of 0.862 (95{\%} CI 0.825–0.895), statistically significantly higher than radiologists' AUC of 0.808 (95{\%} CI 0.777–0.838); there were no statistically significant differences in AUCs for the other 10 pathologies. The average time to interpret the 420 images in the validation set was substantially longer for the radiologists (240 minutes) than for CheXNeXt (1.5 minutes). The main limitations of our study are that neither CheXNeXt nor the radiologists were permitted to use patient history or review prior examinations and that evaluation was limited to a dataset from a single institution. Conclusions In this study, we developed and validated a deep learning algorithm that classified clinically important abnormalities in chest radiographs at a performance level comparable to practicing radiologists. Once tested prospectively in clinical settings, the algorithm could have the potential to expand patient access to chest radiograph diagnostics.}
+      \field{isbn}{1111111111}
+      \field{issn}{15491676}
+      \field{journaltitle}{PLoS Medicine}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{{Deep learning for chest radiograph diagnosis: A retrospective comparison of the CheXNeXt algorithm to practicing radiologists}}
+      \field{volume}{15}
+      \field{year}{2018}
+      \field{pages}{e1002686}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pmed.1002686
+      \endverb
+      \verb{file}
+      \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Rajpurkar et al. - 2018 - Deep learning for chest radiograph diagnosis A retrospective comparison of the CheXNeXt algorithm to practicin.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.plos.org/10.1371/journal.pmed.1002686
+      \endverb
+      \verb{url}
+      \verb http://dx.plos.org/10.1371/journal.pmed.1002686
+      \endverb
+    \endentry
+    \entry{tzeng2014deep}{article}{}
+      \name{author}{5}{}{%
+        {{hash=fbca5fa50691269bdc9f6ee6c7f6f9e1}{%
+           family={Tzeng},
+           familyi={T\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=98392893f850ec17a67d971c57631579}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={Judy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=803fb0c7ba592ff2ac5109218a4a8211}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod}}}%
+        {{hash=df6dd5c482f41a42e672eecaa779020c}{%
+           family={Saenko},
+           familyi={S\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod}}}%
+        {{hash=90180e1a30742e0d15328bfe637c2ef4}{%
+           family={Darrell},
+           familyi={D\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d941c2fa0dd8b8f016d246d15b6d6fe}
+      \strng{fullhash}{bffb46107232711cc38188e158b423e0}
+      \strng{bibnamehash}{bffb46107232711cc38188e158b423e0}
+      \strng{authorbibnamehash}{bffb46107232711cc38188e158b423e0}
+      \strng{authornamehash}{5d941c2fa0dd8b8f016d246d15b6d6fe}
+      \strng{authorfullhash}{bffb46107232711cc38188e158b423e0}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1412.3474}
+      \field{title}{Deep domain confusion: Maximizing for domain invariance}
+      \field{year}{2014}
+    \endentry
+    \entry{Irvin2019}{article}{}
+      \name{author}{20}{}{%
+        {{hash=17dbdf9769aed87e3f35194f5b790bbf}{%
+           family={Irvin},
+           familyi={I\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d928987fcfcc448e0b101168ce910c67}{%
+           family={Rajpurkar},
+           familyi={R\bibinitperiod},
+           given={Pranav},
+           giveni={P\bibinitperiod}}}%
+        {{hash=81ac734810706dc68342432da2d54a00}{%
+           family={Ko},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e199e76263ff8a216d333faf8443401f}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Yifan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=739e1ff19d9b35dbe4e1b59f0b803c6d}{%
+           family={Ciurea-Ilcus},
+           familyi={C\bibinithyphendelim I\bibinitperiod},
+           given={Silviana},
+           giveni={S\bibinitperiod}}}%
+        {{hash=38ab9d3e388dc05eaf6eb8fec552a94f}{%
+           family={Chute},
+           familyi={C\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3496dcfaa0410bc0ded0f8c5f77de409}{%
+           family={Marklund},
+           familyi={M\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7a4aa110b25287abc811958e52c6600a}{%
+           family={Haghgoo},
+           familyi={H\bibinitperiod},
+           given={Behzad},
+           giveni={B\bibinitperiod}}}%
+        {{hash=7533088c6373212f67b666df48bd3042}{%
+           family={Ball},
+           familyi={B\bibinitperiod},
+           given={Robyn},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e6cc06ca3d1d2419564dc9a23fcee4a0}{%
+           family={Shpanskaya},
+           familyi={S\bibinitperiod},
+           given={Katie},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b83b97e2859d8c62f03d58d250cdf9ba}{%
+           family={Seekins},
+           familyi={S\bibinitperiod},
+           given={Jayne},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b4d6e77c65bd10289fef087e250dacc0}{%
+           family={Mong},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bd4d26e0ff9b9c66185692f86c9b7981}{%
+           family={Halabi},
+           familyi={H\bibinitperiod},
+           given={Safwan\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7b062ee0b1a37baed2e8558bf518d35b}{%
+           family={Sandberg},
+           familyi={S\bibinitperiod},
+           given={Jesse\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=871b728fb74f3f71fde224a90eb6d050}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Ricky},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9dfea4fc5f896edc9e64d4d2c626729b}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=f3b87612827d5a394ddaa95b607d1a73}{%
+           family={Langlotz},
+           familyi={L\bibinitperiod},
+           given={Curtis\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=5b98a4b659e3cecceed774f8b4a89b4d}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Bhavik\bibnamedelima N.},
+           giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=d2b0365aae39a8b9219bc9c7754e7305}{%
+           family={Lungren},
+           familyi={L\bibinitperiod},
+           given={Matthew\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=49e889356ff39df159461bc2895c7e16}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelima Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{1be394dd445a7696325a46b19ac77ad0}
+      \strng{fullhash}{33d53073dcb9ae21a9cc29bda962ff18}
+      \strng{bibnamehash}{33d53073dcb9ae21a9cc29bda962ff18}
+      \strng{authorbibnamehash}{33d53073dcb9ae21a9cc29bda962ff18}
+      \strng{authornamehash}{1be394dd445a7696325a46b19ac77ad0}
+      \strng{authorfullhash}{33d53073dcb9ae21a9cc29bda962ff18}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Large, labeled datasets have driven deep learning methods to achieve expert-level performance on a variety of medical imaging tasks. We present CheXpert, a large dataset that contains 224,316 chest radiographs of 65,240 patients. We design a labeler to automatically detect the presence of 14 observations in radiology reports, capturing uncertainties inherent in radiograph interpretation. We investigate different approaches to using the uncertainty labels for training convolutional neural networks that output the probability of these observations given the available frontal and lateral radiographs. On a validation set of 200 chest radiographic studies which were manually annotated by 3 board-certified radiologists, we find that different uncertainty approaches are useful for different pathologies. We then evaluate our best model on a test set composed of 500 chest radiographic studies annotated by a consensus of 5 board-certified radiologists, and compare the performance of our model to that of 3 additional radiologists in the detection of 5 selected pathologies. On Cardiomegaly, Edema, and Pleural Effusion, the model ROC and PR curves lie above all 3 radiologist operating points. We release the dataset to the public as a standard benchmark to evaluate performance of chest radiograph interpretation models. The dataset is freely available at https://stanfordmlgroup.github.io/competitions/chexpert .}
+      \field{eprinttype}{arXiv}
+      \field{month}{1}
+      \field{title}{{CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison}}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1901.07031
+      \endverb
+      \verb{file}
+      \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Irvin et al. - 2019 - CheXpert A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1901.07031
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1901.07031
+      \endverb
+    \endentry
+    \entry{Bustos2019}{article}{}
+      \name{author}{4}{}{%
+        {{hash=52d4f5e3b28cbb9afaf3e47d575340e2}{%
+           family={Bustos},
+           familyi={B\bibinitperiod},
+           given={Aurelia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7259ad662ef4d04ddcd51706852b7be9}{%
+           family={Pertusa},
+           familyi={P\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b536e7f65c674dbdbd3841ffba41fad6}{%
+           family={Salinas},
+           familyi={S\bibinitperiod},
+           given={Jose-Maria},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=fa643f8f574e6ed8a136745098d02683}{%
+           family={Iglesia-Vay{á}},
+           familyi={I\bibinithyphendelim V\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           prefix={de\bibnamedelima la},
+           prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod}}}%
+      }
+      \strng{namehash}{e45137f86798ec911fc706fc0ce1e7a8}
+      \strng{fullhash}{9f67d4aea46a13a2a364b725a91eee25}
+      \strng{bibnamehash}{9f67d4aea46a13a2a364b725a91eee25}
+      \strng{authorbibnamehash}{9f67d4aea46a13a2a364b725a91eee25}
+      \strng{authornamehash}{e45137f86798ec911fc706fc0ce1e7a8}
+      \strng{authorfullhash}{9f67d4aea46a13a2a364b725a91eee25}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a labeled large-scale, high resolution chest x-ray dataset for the automated exploration of medical images along with their associated reports. This dataset includes more than 160,000 images obtained from 67,000 patients that were interpreted and reported by radiologists at Hospital San Juan Hospital (Spain) from 2009 to 2017, covering six different position views and additional information on image acquisition and patient demography. The reports were labeled with 174 different radiographic findings, 19 differential diagnoses and 104 anatomic locations organized as a hierarchical taxonomy and mapped onto standard Unified Medical Language System (UMLS) terminology. Of these reports, 27{\%} were manually annotated by trained physicians and the remaining set was labeled using a supervised method based on a recurrent neural network with attention mechanisms. The labels generated were then validated in an independent test set achieving a 0.93 Micro-F1 score. To the best of our knowledge, this is one of the largest public chest x-ray database suitable for training supervised models concerning radiographs, and the first to contain radiographic reports in Spanish. The PadChest dataset can be downloaded from http://bimcv.cipf.es/bimcv-projects/padchest/.}
+      \field{eprinttype}{arXiv}
+      \field{month}{1}
+      \field{title}{{PadChest: A large chest x-ray image dataset with multi-label annotated reports}}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1901.07441
+      \endverb
+      \verb{file}
+      \verb :home/administrator/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Bustos et al. - 2019 - PadChest A large chest x-ray image dataset with multi-label annotated reports.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1901.07441
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1901.07441
       \endverb
     \endentry
   \enddatalist

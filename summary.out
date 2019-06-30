@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Previous work}{}% 2
+\BOOKMARK [1][-]{section.3}{Datasets}{}% 3
+\BOOKMARK [1][-]{section.4}{Model}{}% 4
+\BOOKMARK [1][-]{section.5}{Training and inference}{}% 5
+\BOOKMARK [1][-]{section.6}{Explainability}{}% 6
+\BOOKMARK [1][-]{section.7}{Generalizability}{}% 7
+\BOOKMARK [1][-]{section.8}{Transfer-learning}{}% 8
+\BOOKMARK [1][-]{section.9}{Mixup}{}% 9
+\BOOKMARK [1][-]{section.10}{Progressive resizing}{}% 10
+\BOOKMARK [1][-]{section.11}{Fairness}{}% 11
+\BOOKMARK [2][-]{subsection.11.1}{Age}{section.11}% 12
+\BOOKMARK [2][-]{subsection.11.2}{Gender}{section.11}% 13
+\BOOKMARK [2][-]{subsection.11.3}{View-position}{section.11}% 14
+\BOOKMARK [1][-]{section.12}{Over-diagnosis}{}% 15
+\BOOKMARK [1][-]{section.13}{Viral vs bacterial pneumonia}{}% 16
+\BOOKMARK [1][-]{section.14}{Segmentation and centering}{}% 17
+\BOOKMARK [1][-]{section.15}{Results}{}% 18
+\BOOKMARK [1][-]{section.16}{Conclusion}{}% 19

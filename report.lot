@@ -1,0 +1,65 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.1}{\ignorespaces Datasets used for training and testing}}{17}{table.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.2}{\ignorespaces For the NIH CXR-14 dataset, the number of images in the train, validation and test sets per abnormality}}{18}{table.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.3}{\ignorespaces For the Guangzhou pediatric pneumonia dataset, the number of images in the train, validation and test sets per label}}{19}{table.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.4}{\ignorespaces For the Shenzhen tuberculosis dataset, the number of images in the train, validation and test sets in each fold per label}}{21}{table.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.5}{\ignorespaces For the Montgomery county tuberculosis dataset, the number of images in the train, validation and test sets in each fold per label}}{23}{table.2.5}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Baseline results on the NIH CXR-14 dataset}}{28}{table.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Baseline results on the Shenzhen hospital tuberculosis dataset}}{29}{table.3.2}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Results on the NIH CXR-14 dataset with and without additional data augmentations}}{31}{table.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Results on the NIH CXR-14 dataset with and without test-time augmentation}}{32}{table.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Results of mixup. Mixup consistently improves performance and generalization to external datasets.}}{33}{table.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.4}{\ignorespaces Results of pre-training on ImageNet. Pre-training on Imagenet, a large collection of natural images, significantly improves both performance and generalization}}{35}{table.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.5}{\ignorespaces Results of pre-training on NIH CXR-14. Pre-training networks on the NIH CXR-14 14 improves performance on both the internal test set and the external dataset}}{36}{table.4.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.6}{\ignorespaces Results of over-dianosis. Models trained on the Shenzhen dataset to detect tuberculosis tend to over-diagnose TB on the NIH CXR-14 dataset}}{37}{table.4.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.7}{\ignorespaces Results for progressive resizing.}}{38}{table.4.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.8}{\ignorespaces Results for ensembling of predictions of multiple models trained using progressive resizing on different resolutions}}{38}{table.4.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.9}{\ignorespaces Distribution of \emph {normal} and \emph {abnormal} images by gender, age group and view-position.}}{41}{table.4.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.10}{\ignorespaces Distribution by age-group, and prior and posterior probabilities of each disease given the age-group.}}{43}{table.4.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.11}{\ignorespaces Distribution by gender, and prior and posterior probabilities of each disease given the gender.}}{46}{table.4.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.12}{\ignorespaces Distribution by view-position, and prior and posterior probabilities of each disease given the view-position.}}{49}{table.4.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.13}{\ignorespaces Evaluation results for our baseline models' ability to generalize to external datasets}}{51}{table.4.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.14}{\ignorespaces Variable performance on viral and bacterial pneumonia of models trained on the NIH CXR-14 dataset.}}{52}{table.4.14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.15}{\ignorespaces Performance of models trained on the Shenzhen dataset and evaluated on the Montgomery dataset without segmentation, with segmentation and with segmentation and cropping.}}{52}{table.4.15}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.1}{\ignorespaces Comparison to previous work on the NIH CXR-14 dataset}}{54}{table.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.2}{\ignorespaces Comparison to human radiologists on the NIH CXR-14 dataset}}{54}{table.5.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.3}{\ignorespaces Comparison to previous work on the Shenzhen tuberculosis dataset}}{55}{table.5.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.4}{\ignorespaces Comparison to previous work on the Montgomery tuberculosis dataset}}{55}{table.5.4}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

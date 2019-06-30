@@ -1,2 +1,6 @@
-* TODO Add and refer example figure in problem definition
-* TODO Include reference to NIH CXR-14 dataset
+* DONE Add and refer example figure in problem definition
+  CLOSED: [2019-05-20 Mon 02:55]
+* DONE Include reference to NIH CXR-14 dataset
+  CLOSED: [2019-05-20 Mon 02:55]
+* TODO Add reference to shenzhen dataset
+* TODO Add footnotes pointing to more details about k-folding and other hyperparameters.

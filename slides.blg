@@ -1,0 +1,22 @@
+[1] Config.pm:304> INFO - This is Biber 2.12
+[3] Config.pm:307> INFO - Logfile is 'slides.blg'
+[123] biber:315> INFO - === Fri Jun 14, 2019, 09:04:07
+[203] Biber.pm:371> INFO - Reading 'slides.bcf'
+[489] Biber.pm:889> INFO - Found 13 citekeys in bib section 0
+[561] Biber.pm:4093> INFO - Processing section 0
+[603] Biber.pm:4254> INFO - Looking for bibtex format file 'references.bib' for section 0
+[638] bibtex.pm:1512> INFO - LaTeX decoding ...
+[1312] bibtex.pm:1329> INFO - Found BibTeX data source 'references.bib'
+[1390] Utils.pm:193> WARN - month field 'Apr' in entry 'modi_suresh_2019' is not an integer - this will probably not sort properly.
+[1555] Utils.pm:193> WARN - month field 'Oct' in entry 'dastin_2018' is not an integer - this will probably not sort properly.
+[1605] Utils.pm:193> WARN - month field 'may' in entry 'Wang2017' is not an integer - this will probably not sort properly.
+[1858] Utils.pm:193> WARN - month field 'nov' in entry 'Rajpurkar2018a' is not an integer - this will probably not sort properly.
+[2003] Utils.pm:193> WARN - month field 'jan' in entry 'Irvin2019' is not an integer - this will probably not sort properly.
+[2040] Utils.pm:193> WARN - month field 'jan' in entry 'Bustos2019' is not an integer - this will probably not sort properly.
+[2122] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2122] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2123] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2123] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[2185] bbl.pm:636> INFO - Writing 'slides.bbl' with encoding 'UTF-8'
+[2218] bbl.pm:739> INFO - Output to slides.bbl
+[2218] Biber.pm:110> INFO - WARNINGS: 6

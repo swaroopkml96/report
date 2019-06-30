@@ -2,6 +2,15 @@
  "references"
  (lambda ()
    (LaTeX-add-bibitems
+    "he2015delving"
+    "tzeng2014deep"
+    "rolnick2017deep"
+    "jaeger2014two"
+    "huang2017densely"
+    "kermany2018identifying"
+    "who_tb"
+    "tb_poverty"
+    "who_pneumonia"
     "modi_suresh_2019"
     "esteva2017dermatologist"
     "agarwal2018reductions"

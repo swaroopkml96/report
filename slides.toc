@@ -1,0 +1,27 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Data}{33}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Baselines}{50}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Experiments}{64}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Results}{77}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Examples}{84}{0}{6}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {7}{References}{102}{0}{7}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {8}{References}{103}{0}{8}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {9}{References}{104}{0}{9}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {10}{References}{105}{0}{10}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {11}{References}{106}{0}{11}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {12}{References}{107}{0}{12}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {13}{References}{108}{0}{13}
